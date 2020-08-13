@@ -1,0 +1,25 @@
+[2.094s] Invoking command in '/home/ubuntu/ros2_ws/src/pi_car': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed
+[3.764s] running egg_info
+[3.768s] writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO
+[3.772s] writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt
+[3.774s] writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt
+[3.775s] writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt
+[3.777s] writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt
+[4.077s] reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[4.089s] writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[4.091s] running build
+[4.091s] running build_py
+[4.095s] copying pi_car/pi_car.py -> /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car
+[4.099s] running install
+[4.104s] running install_lib
+[4.113s] copying /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car/pi_car.py -> /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car
+[4.119s] byte-compiling /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car/pi_car.py to pi_car.cpython-38.pyc
+[4.136s] running install_data
+[4.142s] copying package.xml -> /home/ubuntu/ros2_ws/install/pi_car/share/pi_car
+[4.143s] running install_egg_info
+[4.155s] removing '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info' (and everything under it)
+[4.158s] Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info
+[4.168s] running install_scripts
+[4.296s] Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car
+[4.300s] writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'
+[4.494s] Invoked command in '/home/ubuntu/ros2_ws/src/pi_car' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed

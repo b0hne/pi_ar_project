@@ -1,0 +1,21 @@
+[2.581s] Invoking command in '/home/ubuntu/ros2_ws/src/pi_car': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed
+[5.019s] running egg_info
+[5.026s] writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO
+[5.030s] writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt
+[5.033s] writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt
+[5.036s] writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt
+[5.038s] writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt
+[5.545s] reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[5.556s] writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[5.559s] running build
+[5.561s] running build_py
+[5.604s] running install
+[5.605s] running install_lib
+[5.626s] running install_data
+[5.637s] running install_egg_info
+[5.661s] removing '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info' (and everything under it)
+[5.665s] Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info
+[5.684s] running install_scripts
+[5.880s] Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car
+[5.886s] writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'
+[6.174s] Invoked command in '/home/ubuntu/ros2_ws/src/pi_car' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed

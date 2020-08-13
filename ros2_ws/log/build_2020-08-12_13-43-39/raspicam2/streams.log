@@ -1,0 +1,20 @@
+[2.244s] Invoking command in '/home/ubuntu/ros2_ws/build/raspicam2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/raspicam2_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/raspicam2
+[2.887s] -- The C compiler identification is GNU 9.3.0
+[3.741s] -- The CXX compiler identification is unknown
+[3.799s] -- Check for working C compiler: /usr/bin/cc
+[4.563s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.576s] -- Detecting C compiler ABI info
+[5.409s] -- Detecting C compiler ABI info - done
+[5.508s] -- Detecting C compile features
+[5.511s] -- Detecting C compile features - done
+[5.517s] CMake Error at CMakeLists.txt:2 (project):
+[5.519s]   No CMAKE_CXX_COMPILER could be found.
+[5.520s] 
+[5.521s]   Tell CMake where to find the compiler by setting either the environment
+[5.522s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[5.524s]   to the compiler, or to the compiler name if it is in the PATH.
+[5.525s] 
+[5.526s] 
+[5.543s] -- Configuring incomplete, errors occurred!
+[5.544s] See also "/home/ubuntu/ros2_ws/build/raspicam2/CMakeFiles/CMakeOutput.log".
+[5.546s] See also "/home/ubuntu/ros2_ws/build/raspicam2/CMakeFiles/CMakeError.log".

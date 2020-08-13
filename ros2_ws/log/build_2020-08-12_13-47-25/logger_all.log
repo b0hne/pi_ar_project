@@ -1,0 +1,282 @@
+[1.363s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.364s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff927f12e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff927f12e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff927f1820>)
+[1.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.526s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.637s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore_ament_install'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_pkg']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_pkg'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_meta']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_meta'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ros']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ros'
+[1.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[1.686s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ignore_ament_install'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['colcon_pkg']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['colcon_meta']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'colcon_meta'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['ros']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ros'
+[1.701s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_cam' with type 'ros.ament_cmake' and name 'opencv_cam'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extension 'ignore_ament_install'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extensions ['colcon_pkg']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extension 'colcon_pkg'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extensions ['colcon_meta']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extension 'colcon_meta'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extensions ['ros']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/pi_car) by extension 'ros'
+[1.711s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pi_car' with type 'ros.ament_python' and name 'pi_car'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ignore', 'ignore_ament_install']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore_ament_install'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_pkg']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_pkg'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_meta']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_meta'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ros']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ros'
+[1.720s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_shared' with type 'ros.ament_cmake' and name 'ros2_shared'
+[1.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.765s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[1.766s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[1.766s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.766s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.767s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.767s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.767s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.767s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.767s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.768s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/apriltag_msgs', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.789s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_target' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_clean_cache' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_clean_first' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'cmake_force_configure' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'ament_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'catkin_cmake_args' from command line to 'None'
+[1.792s] Level 5:colcon.colcon_core.verb:set package 'pi_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.792s] DEBUG:colcon.colcon_core.verb:Building package 'pi_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/pi_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/pi_car', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/pi_car', 'symlink_install': False, 'test_result_base': None}
+[1.814s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_args' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_target' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_clean_cache' from command line to 'False'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_clean_first' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_force_configure' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'ament_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'catkin_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.817s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_shared' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/ros2_shared', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/ros2_shared', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/ros2_shared', 'symlink_install': False, 'test_result_base': None}
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.839s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.840s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.841s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/apriltag_ros', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_args' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_target' from command line to 'None'
+[1.866s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'opencv_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.869s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/opencv_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/opencv_cam', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/opencv_cam', 'symlink_install': False, 'test_result_base': None}
+[1.871s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.890s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/apriltag_msgs' with build type 'ament_cmake'
+[1.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.923s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/apriltag_msgs'
+[1.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.947s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.966s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/ros2_shared' with build type 'ament_cmake'
+[1.973s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/ros2_shared'
+[1.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.993s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.011s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/pi_car' with build type 'ament_python'
+[2.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('pi_car', 'ament_prefix_path')
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/ament_prefix_path.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/ament_prefix_path.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/ament_prefix_path.sh'
+[2.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.052s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_msgs -- -j4 -l4
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[4.387s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/pi_car'
+[4.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.404s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[4.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_msgs -- -j4 -l4
+[4.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/pi_car': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed
+[4.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared
+[4.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_shared)
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/ros2_shared' for CMake module files
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/ros2_shared' for CMake config files
+[4.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_shared', 'cmake_prefix_path')
+[4.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.ps1'
+[4.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.dsv'
+[4.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.sh'
+[4.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/ros2_shared/bin'
+[4.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/ros2_shared/lib/pkgconfig/ros2_shared.pc'
+[4.922s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/ros2_shared/lib/python3.8/site-packages'
+[4.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.ps1'
+[4.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv'
+[4.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.sh'
+[4.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.bash'
+[4.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.zsh'
+[4.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/ros2_shared/share/colcon-core/packages/ros2_shared)
+[4.979s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/opencv_cam' with build type 'ament_cmake'
+[4.986s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/opencv_cam'
+[4.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.013s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[5.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/opencv_cam -- -j4 -l4
+[5.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/apriltag_msgs
+[6.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[6.175s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs' for CMake module files
+[6.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/apriltag_msgs
+[6.191s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs' for CMake config files
+[6.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[6.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[6.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[6.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[6.219s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib'
+[6.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[6.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[6.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[6.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[6.240s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs/bin'
+[6.241s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[6.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages'
+[6.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'pythonpath')
+[6.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.ps1'
+[6.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.dsv'
+[6.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/hook/pythonpath.sh'
+[6.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[6.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[6.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[6.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[6.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[6.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[6.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/apriltag_ros' with build type 'ament_cmake'
+[6.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/apriltag_ros'
+[6.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[6.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_ros
+[8.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/pi_car' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed
+[8.024s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car' for CMake module files
+[8.031s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car' for CMake config files
+[8.040s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car/lib'
+[8.041s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car/bin'
+[8.043s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car/lib/pkgconfig/pi_car.pc'
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages'
+[8.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('pi_car', 'pythonpath')
+[8.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/pythonpath.ps1'
+[8.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/pythonpath.dsv'
+[8.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/hook/pythonpath.sh'
+[8.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pi_car)
+[8.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/package.ps1'
+[8.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/package.dsv'
+[8.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/package.sh'
+[8.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/package.bash'
+[8.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/pi_car/share/pi_car/package.zsh'
+[8.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/pi_car/share/colcon-core/packages/pi_car)
+[30.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_ros
+[30.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4
+[244.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[244.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[244.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '-2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4
+[244.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/opencv_cam' returned '-2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/opencv_cam -- -j4 -l4
+[244.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[244.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[244.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[244.477s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[244.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[244.922s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[244.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[244.923s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[244.995s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[244.996s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[245.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[245.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[245.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[245.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[245.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[245.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[245.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[245.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[245.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[245.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

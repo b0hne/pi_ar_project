@@ -1,0 +1,36 @@
+running egg_info
+creating /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info
+writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO
+writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt
+writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt
+writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt
+writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt
+writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/pi_car/build
+creating /home/ubuntu/ros2_ws/build/pi_car/build/lib
+creating /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car
+copying pi_car/__init__.py -> /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car
+copying pi_car/pi_car.py -> /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car
+copying /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car/__init__.py -> /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car
+copying /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car/pi_car.py -> /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car
+byte-compiling /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car/pi_car.py to pi_car.cpython-38.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index
+creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index/packages
+copying resource/pi_car -> /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/pi_car/share/pi_car
+copying launch/pi_car.launch.py -> /home/ubuntu/ros2_ws/install/pi_car/share/pi_car
+running install_egg_info
+Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car
+writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'

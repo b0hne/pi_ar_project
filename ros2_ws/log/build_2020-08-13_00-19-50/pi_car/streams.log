@@ -1,0 +1,21 @@
+[2.228s] Invoking command in '/home/ubuntu/ros2_ws/src/pi_car': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055_driver:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed
+[4.104s] running egg_info
+[4.109s] writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO
+[4.111s] writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt
+[4.113s] writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt
+[4.115s] writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt
+[4.116s] writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt
+[4.456s] reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[4.467s] writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'
+[4.468s] running build
+[4.469s] running build_py
+[4.474s] running install
+[4.480s] running install_lib
+[4.495s] running install_data
+[4.500s] running install_egg_info
+[4.516s] removing '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info' (and everything under it)
+[4.518s] Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info
+[4.528s] running install_scripts
+[4.676s] Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car
+[4.680s] writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'
+[4.870s] Invoked command in '/home/ubuntu/ros2_ws/src/pi_car' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055_driver:/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/pi_car build --build-base /home/ubuntu/ros2_ws/build/pi_car/build install --prefix /home/ubuntu/ros2_ws/install/pi_car --record /home/ubuntu/ros2_ws/build/pi_car/install.log --single-version-externally-managed

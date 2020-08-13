@@ -1,0 +1,33 @@
+[0.105s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4
+[0.925s] [100%] Built target AprilTagNode
+[2.607s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4
+[2.823s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/apriltag_ros
+[2.892s] -- Install configuration: ""
+[2.894s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[2.895s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[2.900s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[2.903s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg
+[2.906s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_all.yaml
+[2.907s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_all.yaml
+[2.908s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_filtered.yaml
+[2.910s] -- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_25h7_all .yaml
+[2.911s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch
+[2.913s] -- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/36h11.launch.py
+[2.915s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_16h5_all.launch.py
+[2.917s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[2.919s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[2.921s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[2.923s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[2.925s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[2.926s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[2.927s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[2.929s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[2.930s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[2.931s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[2.932s] -- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[2.934s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[2.935s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[2.937s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[2.938s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[2.939s] -- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[2.957s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/apriltag_ros

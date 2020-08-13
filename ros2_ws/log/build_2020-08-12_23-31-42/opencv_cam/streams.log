@@ -1,0 +1,41 @@
+[0.102s] Invoking command in '/home/ubuntu/ros2_ws/build/opencv_cam': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/opencv_cam -- -j4 -l4
+[0.859s] [ 25%] Built target subscriber_node
+[0.924s] [ 50%] Built target opencv_cam_node
+[1.295s] [ 75%] Built target ipc_test_main
+[1.311s] [100%] Built target opencv_cam_main
+[1.552s] Invoked command in '/home/ubuntu/ros2_ws/build/opencv_cam' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/opencv_cam -- -j4 -l4
+[1.867s] Invoking command in '/home/ubuntu/ros2_ws/build/opencv_cam': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/opencv_cam
+[1.941s] -- Install configuration: ""
+[1.943s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+[1.945s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+[1.946s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+[1.948s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+[1.950s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+[1.953s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+[1.955s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+[1.956s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+[1.958s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+[1.959s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+[1.960s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+[1.961s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+[1.962s] -- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+[1.964s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+[1.965s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+[1.974s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+[1.977s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+[1.979s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+[1.981s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+[1.982s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.984s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.988s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_interfaces-extras.cmake
+[1.989s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[1.990s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+[1.992s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+[1.994s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+[1.995s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+[2.002s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+[2.011s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+[2.018s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+[2.021s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch
+[2.023s] -- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py
+[2.045s] Invoked command in '/home/ubuntu/ros2_ws/build/opencv_cam' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/opencv_cam

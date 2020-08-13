@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target AprilTagNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libAprilTagNode.so[0m
+[100%] Built target AprilTagNode
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/lib/libAprilTagNode.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/apriltag_ros/lib/libAprilTagNode.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_all.yaml
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_all.yaml
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_filtered.yaml
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/36h11.launch.py
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_16h5_all.launch.py
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.xml

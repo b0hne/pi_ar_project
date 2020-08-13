@@ -1,0 +1,109 @@
+[0.249s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs
+[3.007s] -- The CXX compiler identification is GNU 9.3.0
+[3.016s] -- Check for working CXX compiler: /usr/bin/c++
+[3.021s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.023s] -- Detecting CXX compiler ABI info
+[3.024s] -- Detecting CXX compiler ABI info - done
+[3.025s] -- Detecting CXX compile features
+[3.027s] -- Detecting CXX compile features - done
+[3.029s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.030s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[3.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.754s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.967s] -- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.055s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.330s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.693s] -- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)
+[9.388s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.2") 
+[11.303s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[13.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.306s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3.5") 
+[14.328s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.653s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.2", minimum required is "3.5") 
+[14.656s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.657s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.658s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.877s] -- Found PythonExtra: .so  
+[15.603s] -- Configuring done
+[16.135s] -- Generating done
+[16.163s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/apriltag_msgs
+[16.215s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs
+[16.235s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_msgs -- -j4 -l4
+[16.563s] [35m[1mScanning dependencies of target apriltag_msgs__cpp[0m
+[16.564s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.668s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.168s] [  4%] Built target apriltag_msgs__cpp
+[21.315s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.339s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.546s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.635s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_generator_c[0m
+[21.935s] [ 12%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[22.649s] [ 14%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[23.286s] [ 17%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[23.995s] [ 19%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[24.687s] [ 19%] Built target apriltag_msgs__rosidl_generator_c
+[24.805s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.646s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_cpp[0m
+[25.927s] [ 23%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[26.570s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_cpp[0m
+[26.789s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[26.902s] [ 25%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[27.128s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[30.049s] [ 29%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[30.341s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c[0m
+[30.506s] [ 31%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[30.782s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[30.889s] [ 36%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[31.279s] [ 38%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[31.708s] [ 40%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[32.085s] [ 40%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[32.206s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.869s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[33.594s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[34.642s] [ 48%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[36.634s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_c[0m
+[36.791s] [ 51%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[37.051s] [ 53%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[37.123s] [ 55%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[37.474s] [ 57%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[37.476s] [ 57%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[37.602s] [ 59%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[37.821s] [ 61%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[38.243s] [ 61%] Built target apriltag_msgs__rosidl_typesupport_c
+[38.807s] [ 63%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[39.517s] [ 63%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[41.788s] [ 65%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[42.636s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[42.723s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[45.974s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c[0m
+[46.121s] [ 70%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[46.123s] [ 72%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[46.137s] [ 74%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[49.768s] [ 76%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[50.507s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[50.574s] [35m[1mScanning dependencies of target apriltag_msgs[0m
+[50.648s] [ 76%] Built target apriltag_msgs
+[50.718s] [35m[1mScanning dependencies of target apriltag_msgs__py[0m
+[50.799s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[57.702s] [ 78%] Built target apriltag_msgs__py
+[57.776s] [35m[1mScanning dependencies of target apriltag_msgs__python[0m
+[58.097s] [ 80%] [32mBuilding C object CMakeFiles/apriltag_msgs__python.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[58.099s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__python.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[58.114s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__python.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[59.148s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__python.so[0m
+[59.573s] [ 87%] Built target apriltag_msgs__python
+[59.649s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[59.651s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[59.654s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_c__pyext[0m
+[59.811s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[59.830s] [ 91%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[59.849s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[60.651s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[60.677s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[60.746s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[61.158s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[61.188s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[61.488s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext

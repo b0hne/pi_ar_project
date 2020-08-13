@@ -1,0 +1,20 @@
+[0.224s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ros2_shared
+[2.539s] -- The C compiler identification is GNU 9.3.0
+[3.412s] -- The CXX compiler identification is unknown
+[3.481s] -- Check for working C compiler: /usr/bin/cc
+[4.363s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.376s] -- Detecting C compiler ABI info
+[5.194s] -- Detecting C compiler ABI info - done
+[5.343s] -- Detecting C compile features
+[5.367s] -- Detecting C compile features - done
+[5.372s] CMake Error at CMakeLists.txt:2 (project):
+[5.375s]   No CMAKE_CXX_COMPILER could be found.
+[5.377s] 
+[5.379s]   Tell CMake where to find the compiler by setting either the environment
+[5.381s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[5.382s]   to the compiler, or to the compiler name if it is in the PATH.
+[5.385s] 
+[5.386s] 
+[5.423s] -- Configuring incomplete, errors occurred!
+[5.426s] See also "/home/ubuntu/ros2_ws/build/ros2_shared/CMakeFiles/CMakeOutput.log".
+[5.428s] See also "/home/ubuntu/ros2_ws/build/ros2_shared/CMakeFiles/CMakeError.log".

@@ -1,0 +1,26 @@
+[2.483s] Invoking command in '/home/ubuntu/ros2_ws/src/bno055': PYTHONPATH=/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/bno055 build --build-base /home/ubuntu/ros2_ws/build/bno055/build install --prefix /home/ubuntu/ros2_ws/install/bno055 --record /home/ubuntu/ros2_ws/build/bno055/install.log --single-version-externally-managed
+[4.835s] running egg_info
+[4.840s] creating /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info
+[4.843s] writing /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/PKG-INFO
+[4.847s] writing dependency_links to /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/dependency_links.txt
+[4.849s] writing entry points to /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/entry_points.txt
+[4.851s] writing requirements to /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/requires.txt
+[4.852s] writing top-level names to /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/top_level.txt
+[4.876s] writing manifest file '/home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/SOURCES.txt'
+[5.248s] reading manifest file '/home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/SOURCES.txt'
+[5.256s] writing manifest file '/home/ubuntu/ros2_ws/build/bno055/bno055.egg-info/SOURCES.txt'
+[5.257s] running build
+[5.259s] running build_py
+[5.261s] creating /home/ubuntu/ros2_ws/build/bno055/build
+[5.263s] creating /home/ubuntu/ros2_ws/build/bno055/build/lib
+[5.264s] copying bno055.py -> /home/ubuntu/ros2_ws/build/bno055/build/lib
+[5.265s] running install
+[5.272s] running install_lib
+[5.284s] copying /home/ubuntu/ros2_ws/build/bno055/build/lib/bno055.py -> /home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages
+[5.291s] byte-compiling /home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages/bno055.py to bno055.cpython-38.pyc
+[5.319s] running install_egg_info
+[5.337s] Copying /home/ubuntu/ros2_ws/build/bno055/bno055.egg-info to /home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages/bno055-0.0.0-py3.8.egg-info
+[5.349s] running install_scripts
+[5.523s] Installing bno055 script to /home/ubuntu/ros2_ws/install/bno055/lib/bno055
+[5.527s] writing list of installed files to '/home/ubuntu/ros2_ws/build/bno055/install.log'
+[7.198s] Invoked command in '/home/ubuntu/ros2_ws/src/bno055' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/ros2_ws/build/bno055 build --build-base /home/ubuntu/ros2_ws/build/bno055/build install --prefix /home/ubuntu/ros2_ws/install/bno055 --record /home/ubuntu/ros2_ws/build/bno055/install.log --single-version-externally-managed

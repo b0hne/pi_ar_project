@@ -1,0 +1,34 @@
+[0.210s] Invoking command in '/home/ubuntu/ros2_ws/build/bno055_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/bno055_driver -- -j4 -l4
+[1.375s] [ 14%] Built target gtest_main
+[1.422s] [ 28%] Built target gtest
+[1.525s] [ 50%] Built target bno055
+[1.957s] [ 71%] Built target bno055_test_fixture
+[1.986s] [ 85%] Built target bno055_driver
+[2.336s] [100%] Built target bno055_serial_tests
+[2.431s] Invoked command in '/home/ubuntu/ros2_ws/build/bno055_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/bno055_driver -- -j4 -l4
+[2.735s] Invoking command in '/home/ubuntu/ros2_ws/build/bno055_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/bno055_driver
+[2.830s] -- Install configuration: ""
+[2.831s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include
+[2.834s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver
+[2.836s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/visibility_control.hpp
+[2.841s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_uart.hpp
+[2.842s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_driver.hpp
+[2.846s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_reg.hpp
+[2.847s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/lib/libbno055.a
+[2.853s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/lib/bno055_driver/bno055_driver
+[2.857s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/package_run_dependencies/bno055_driver
+[2.859s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/parent_prefix_path/bno055_driver
+[2.861s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/ament_prefix_path.sh
+[2.863s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/ament_prefix_path.dsv
+[2.875s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/path.sh
+[2.878s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/path.dsv
+[2.880s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.bash
+[2.882s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.sh
+[2.890s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.zsh
+[2.891s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.dsv
+[2.893s] -- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/package.dsv
+[2.894s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/packages/bno055_driver
+[2.897s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/cmake/bno055_driverConfig.cmake
+[2.899s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/cmake/bno055_driverConfig-version.cmake
+[2.900s] -- Up-to-date: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/package.xml
+[2.927s] Invoked command in '/home/ubuntu/ros2_ws/build/bno055_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/bno055_driver

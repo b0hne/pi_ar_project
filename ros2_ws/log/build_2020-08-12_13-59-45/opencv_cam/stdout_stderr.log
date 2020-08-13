@@ -1,0 +1,103 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/camera_calibration_parsers/parse.h:41:79:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'parse.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'parse.hpp' instead"[01;36m[K)[m[K
+      |                                                                               [01;36m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/camera_context.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:[m[K In constructor ‘[01m[Kopencv_cam::OpencvCamNode::OpencvCamNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp:59:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   59 | [this, existing_callback = node_ref.set_on_parameters_set_callback(nullptr[01;35m[K)[m[K, the_logger = node_ref.get_logger()]\
+      |                                                                           [01;35m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCXT_MACRO_REGISTER_PARAMETERS_CHANGED[m[K’
+   40 |     [01;36m[KCXT_MACRO_REGISTER_PARAMETERS_CHANGED[m[K((*this), OPENCV_CAM_ALL_PARAMS, validate_parameters)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/camera_context.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp:76:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Node::OnParametersSetCallbackType rclcpp::Node::set_on_parameters_set_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’ is deprecated: use add_on_set_parameters_callback(OnParametersSetCallbackType callback) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   76 | }[01;35m[K)[m[K;
+      |  [01;35m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:40:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCXT_MACRO_REGISTER_PARAMETERS_CHANGED[m[K’
+   40 |     [01;36m[KCXT_MACRO_REGISTER_PARAMETERS_CHANGED[m[K((*this), OPENCV_CAM_ALL_PARAMS, validate_parameters)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_node.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:866:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  866 |   [01;36m[Kset_on_parameters_set_callback[m[K(rclcpp::Node::OnParametersSetCallbackType callback);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 37%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[ 37%] Built target subscriber_node
+[ 50%] [32m[1mLinking CXX shared library libopencv_cam_node.so[0m
+[ 50%] Built target opencv_cam_node
+[35m[1mScanning dependencies of target ipc_test_main[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/ipc_test_main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[ 75%] [32m[1mLinking CXX executable ipc_test_main[0m
+[ 75%] Built target ipc_test_main
+[35m[1mScanning dependencies of target opencv_cam_main[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/include/opencv_cam/opencv_cam_node.hpp:6[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/opencv_cam/src/opencv_cam_main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[100%] [32m[1mLinking CXX executable opencv_cam_main[0m
+[100%] Built target opencv_cam_main
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch
+-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbno055_test_fixture.a  CMakeFiles/bno055_test_fixture.dir/fake_bno055.cpp.o CMakeFiles/bno055_test_fixture.dir/unix_test_harness.cpp.o
+/usr/bin/ranlib libbno055_test_fixture.a

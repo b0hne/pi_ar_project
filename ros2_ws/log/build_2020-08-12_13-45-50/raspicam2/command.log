@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/raspicam2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/raspicam2_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/raspicam2
+Invoked command in '/home/ubuntu/ros2_ws/build/raspicam2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/raspicam2_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/raspicam2

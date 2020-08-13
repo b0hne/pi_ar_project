@@ -1,0 +1,55 @@
+[0.203s] Invoking command in '/home/ubuntu/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/serial
+[2.363s] -- The C compiler identification is GNU 9.3.0
+[3.961s] -- The CXX compiler identification is GNU 9.3.0
+[4.027s] -- Check for working C compiler: /usr/bin/cc
+[4.653s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.664s] -- Detecting C compiler ABI info
+[5.257s] -- Detecting C compiler ABI info - done
+[5.358s] -- Detecting C compile features
+[5.362s] -- Detecting C compile features - done
+[5.389s] -- Check for working CXX compiler: /usr/bin/c++
+[6.064s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.068s] -- Detecting CXX compiler ABI info
+[6.785s] -- Detecting CXX compiler ABI info - done
+[6.895s] -- Detecting CXX compile features
+[6.898s] -- Detecting CXX compile features - done
+[6.939s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.253s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[7.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.290s] -- Configuring done
+[12.333s] -- Generating done
+[12.346s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/serial
+[12.369s] Invoked command in '/home/ubuntu/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/serial-ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/serial
+[12.384s] Invoking command in '/home/ubuntu/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/serial -- -j4 -l4
+[12.673s] [35m[1mScanning dependencies of target serial[0m
+[12.779s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[12.782s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[12.786s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[17.254s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[17.606s] [100%] Built target serial
+[17.681s] Invoked command in '/home/ubuntu/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/serial -- -j4 -l4
+[17.921s] Invoking command in '/home/ubuntu/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/serial
+[17.983s] -- Install configuration: ""
+[17.984s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[17.986s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[17.988s] -- Installing: /home/ubuntu/ros2_ws/install/serial/lib/libserial.a
+[17.994s] -- Installing: /home/ubuntu/ros2_ws/install/serial/include/serial/serial.h
+[17.995s] -- Installing: /home/ubuntu/ros2_ws/install/serial/include/serial/v8stdint.h
+[17.998s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[18.000s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[18.002s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[18.004s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[18.006s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.sh
+[18.008s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.dsv
+[18.009s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.bash
+[18.011s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.sh
+[18.013s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.zsh
+[18.015s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.dsv
+[18.016s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/package.dsv
+[18.019s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[18.021s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.023s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[18.025s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[18.026s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[18.028s] -- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/package.xml
+[18.046s] Invoked command in '/home/ubuntu/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/serial

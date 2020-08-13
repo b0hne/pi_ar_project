@@ -1,0 +1,25 @@
+[0.191s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[2.381s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[2.652s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared
+[2.735s] -- Install configuration: ""
+[2.737s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include
+[2.738s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared
+[2.739s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[2.743s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[2.745s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[2.748s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[2.752s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[2.754s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[2.756s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[2.759s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[2.763s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[2.772s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[2.774s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[2.775s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[2.778s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[2.779s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[2.781s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.784s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[2.786s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[2.788s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml
+[2.792s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/pi_car:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared

@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs
+Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs

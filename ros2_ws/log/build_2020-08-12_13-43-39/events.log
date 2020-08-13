@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.002167] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.002986] (pi_car) JobQueued: {'identifier': 'pi_car', 'dependencies': OrderedDict()}
+[0.005083] (raspicam2) JobQueued: {'identifier': 'raspicam2', 'dependencies': OrderedDict()}
+[0.007589] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.008092] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag_msgs', '/home/ubuntu/ros2_ws/install/apriltag_msgs')])}
+[0.008390] (opencv_cam) JobQueued: {'identifier': 'opencv_cam', 'dependencies': OrderedDict([('ros2_shared', '/home/ubuntu/ros2_ws/install/ros2_shared')])}
+[0.008680] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.097875] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.110112] (-) TimerEvent: {}
+[0.142720] (pi_car) JobStarted: {'identifier': 'pi_car'}
+[0.203514] (raspicam2) JobStarted: {'identifier': 'raspicam2'}
+[0.215464] (-) TimerEvent: {}
+[0.264433] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.266156] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/apriltag_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs'], 'cwd': '/home/ubuntu/ros2_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,2088,1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 38304 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 38360 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.310092] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.312113] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/ros2_shared', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ros2_shared'], 'cwd': '/home/ubuntu/ros2_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,2088,1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 38304 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 38360 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.329913] (-) TimerEvent: {}
+[0.433103] (-) TimerEvent: {}
+[0.536238] (-) TimerEvent: {}
+[0.637772] (-) TimerEvent: {}
+[0.739186] (-) TimerEvent: {}
+[0.840889] (-) TimerEvent: {}
+[0.942409] (-) TimerEvent: {}
+[1.043874] (-) TimerEvent: {}
+[1.145589] (-) TimerEvent: {}
+[1.248443] (-) TimerEvent: {}
+[1.349886] (-) TimerEvent: {}
+[1.451488] (-) TimerEvent: {}
+[1.552904] (-) TimerEvent: {}
+[1.654503] (-) TimerEvent: {}
+[1.756387] (-) TimerEvent: {}
+[1.857943] (-) TimerEvent: {}
+[1.959723] (-) TimerEvent: {}
+[2.061458] (-) TimerEvent: {}
+[2.162867] (-) TimerEvent: {}
+[2.264559] (-) TimerEvent: {}
+[2.370259] (-) TimerEvent: {}
+[2.428139] (raspicam2) JobProgress: {'identifier': 'raspicam2', 'progress': 'cmake'}
+[2.431019] (raspicam2) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/raspicam2_node', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/raspicam2'], 'cwd': '/home/ubuntu/ros2_ws/build/raspicam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,2088,1'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 38304 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/raspicam2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 38360 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.470856] (-) TimerEvent: {}
+[2.527218] (pi_car) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/ros2_ws/build/pi_car', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/pi_car/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/pi_car', '--record', '/home/ubuntu/ros2_ws/build/pi_car/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/pi_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-1000/default,2088,1', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.2 38304 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/pi_car', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.2 38360 192.168.0.4 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'TMUX_PANE': '%1'}, 'shell': False}
+[2.571492] (-) TimerEvent: {}
+[2.638340] (apriltag_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.641340] (ros2_shared) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.671626] (-) TimerEvent: {}
+[2.773377] (-) TimerEvent: {}
+[2.875839] (-) TimerEvent: {}
+[2.977893] (-) TimerEvent: {}
+[3.080441] (-) TimerEvent: {}
+[3.093535] (raspicam2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[3.180949] (-) TimerEvent: {}
+[3.282915] (-) TimerEvent: {}
+[3.385029] (-) TimerEvent: {}
+[3.487011] (-) TimerEvent: {}
+[3.514241] (ros2_shared) StdoutLine: {'line': b'-- The CXX compiler identification is unknown\n'}
+[3.561911] (apriltag_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is unknown\n'}
+[3.583019] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.587454] (-) TimerEvent: {}
+[3.608798] (apriltag_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.687693] (-) TimerEvent: {}
+[3.789533] (-) TimerEvent: {}
+[3.891480] (-) TimerEvent: {}
+[3.948367] (raspicam2) StdoutLine: {'line': b'-- The CXX compiler identification is unknown\n'}
+[3.991738] (-) TimerEvent: {}
+[4.007221] (raspicam2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.092082] (-) TimerEvent: {}
+[4.193970] (-) TimerEvent: {}
+[4.296393] (-) TimerEvent: {}
+[4.398840] (-) TimerEvent: {}
+[4.453140] (apriltag_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.465617] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.468724] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.478270] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.499205] (-) TimerEvent: {}
+[4.603564] (-) TimerEvent: {}
+[4.709065] (-) TimerEvent: {}
+[4.770580] (raspicam2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.783728] (raspicam2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.809557] (-) TimerEvent: {}
+[4.912496] (-) TimerEvent: {}
+[5.014371] (-) TimerEvent: {}
+[5.116193] (-) TimerEvent: {}
+[5.218214] (-) TimerEvent: {}
+[5.269854] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.296425] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.318600] (-) TimerEvent: {}
+[5.397665] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.402670] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.409380] (apriltag_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:2 (project):\n'}
+[5.411516] (apriltag_msgs) StderrLine: {'line': b'  No CMAKE_CXX_COMPILER could be found.\n'}
+[5.413085] (apriltag_msgs) StderrLine: {'line': b'\n'}
+[5.414781] (apriltag_msgs) StderrLine: {'line': b'  Tell CMake where to find the compiler by setting either the environment\n'}
+[5.416745] (apriltag_msgs) StderrLine: {'line': b'  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path\n'}
+[5.418735] (-) TimerEvent: {}
+[5.422914] (apriltag_msgs) StderrLine: {'line': b'  to the compiler, or to the compiler name if it is in the PATH.\n'}
+[5.425690] (apriltag_msgs) StderrLine: {'line': b'\n'}
+[5.427564] (apriltag_msgs) StderrLine: {'line': b'\n'}
+[5.432878] (pi_car) StdoutLine: {'line': b'running egg_info\n'}
+[5.438937] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info\n'}
+[5.443662] (pi_car) StdoutLine: {'line': b'writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO\n'}
+[5.445118] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.446629] (pi_car) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt\n'}
+[5.457050] (pi_car) StdoutLine: {'line': b'writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt\n'}
+[5.458818] (pi_car) StdoutLine: {'line': b'writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt\n'}
+[5.461225] (apriltag_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.463479] (apriltag_msgs) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/apriltag_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[5.465796] (apriltag_msgs) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/apriltag_msgs/CMakeFiles/CMakeError.log".\n'}
+[5.468195] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.471174] (pi_car) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt\n'}
+[5.473697] (ros2_shared) StderrLine: {'line': b'CMake Error at CMakeLists.txt:2 (project):\n'}
+[5.476528] (ros2_shared) StderrLine: {'line': b'  No CMAKE_CXX_COMPILER could be found.\n'}
+[5.478579] (ros2_shared) StderrLine: {'line': b'\n'}
+[5.480400] (ros2_shared) StderrLine: {'line': b'  Tell CMake where to find the compiler by setting either the environment\n'}
+[5.482527] (ros2_shared) StderrLine: {'line': b'  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path\n'}
+[5.484625] (ros2_shared) StderrLine: {'line': b'  to the compiler, or to the compiler name if it is in the PATH.\n'}
+[5.486417] (ros2_shared) StderrLine: {'line': b'\n'}
+[5.488508] (ros2_shared) StderrLine: {'line': b'\n'}
+[5.498416] (pi_car) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'\n"}
+[5.509675] (apriltag_msgs) CommandEnded: {'returncode': 1}
+[5.514273] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 1}
+[5.522283] (-) TimerEvent: {}
+[5.525728] (ros2_shared) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.527240] (ros2_shared) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/ros2_shared/CMakeFiles/CMakeOutput.log".\n'}
+[5.530112] (ros2_shared) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/ros2_shared/CMakeFiles/CMakeError.log".\n'}
+[5.578472] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 'SIGINT'}
+[5.617349] (raspicam2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.622538] (-) TimerEvent: {}
+[5.716295] (raspicam2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.719244] (raspicam2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.722824] (-) TimerEvent: {}
+[5.725222] (raspicam2) StderrLine: {'line': b'CMake Error at CMakeLists.txt:2 (project):\n'}
+[5.726778] (raspicam2) StderrLine: {'line': b'  No CMAKE_CXX_COMPILER could be found.\n'}
+[5.728267] (raspicam2) StderrLine: {'line': b'\n'}
+[5.729385] (raspicam2) StderrLine: {'line': b'  Tell CMake where to find the compiler by setting either the environment\n'}
+[5.730468] (raspicam2) StderrLine: {'line': b'  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path\n'}
+[5.731808] (raspicam2) StderrLine: {'line': b'  to the compiler, or to the compiler name if it is in the PATH.\n'}
+[5.733041] (raspicam2) StderrLine: {'line': b'\n'}
+[5.734188] (raspicam2) StderrLine: {'line': b'\n'}
+[5.751452] (raspicam2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.752676] (raspicam2) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/raspicam2/CMakeFiles/CMakeOutput.log".\n'}
+[5.753778] (raspicam2) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_ws/build/raspicam2/CMakeFiles/CMakeError.log".\n'}
+[5.783106] (raspicam2) JobEnded: {'identifier': 'raspicam2', 'rc': 'SIGINT'}
+[5.823072] (-) TimerEvent: {}
+[5.863682] (pi_car) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'\n"}
+[5.870241] (pi_car) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'\n"}
+[5.871854] (pi_car) StdoutLine: {'line': b'running build\n'}
+[5.873176] (pi_car) StdoutLine: {'line': b'running build_py\n'}
+[5.874759] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/pi_car/build\n'}
+[5.876050] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/pi_car/build/lib\n'}
+[5.877029] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car\n'}
+[5.877904] (pi_car) StdoutLine: {'line': b'copying pi_car/__init__.py -> /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car\n'}
+[5.878835] (pi_car) StdoutLine: {'line': b'copying pi_car/pi_car.py -> /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car\n'}
+[5.880149] (pi_car) StdoutLine: {'line': b'running install\n'}
+[5.887252] (pi_car) StdoutLine: {'line': b'running install_lib\n'}
+[5.897590] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car\n'}
+[5.898970] (pi_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car/__init__.py -> /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car\n'}
+[5.900414] (pi_car) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/pi_car/build/lib/pi_car/pi_car.py -> /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car\n'}
+[5.903896] (pi_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car/__init__.py to __init__.cpython-38.pyc\n'}
+[5.914110] (pi_car) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car/pi_car.py to pi_car.cpython-38.pyc\n'}
+[5.920223] (pi_car) StdoutLine: {'line': b'running install_data\n'}
+[5.923366] (-) TimerEvent: {}
+[5.925192] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index\n'}
+[5.926686] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index\n'}
+[5.928138] (pi_car) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index/packages\n'}
+[5.929397] (pi_car) StdoutLine: {'line': b'copying resource/pi_car -> /home/ubuntu/ros2_ws/install/pi_car/share/ament_index/resource_index/packages\n'}
+[5.930839] (pi_car) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/pi_car/share/pi_car\n'}
+[5.932247] (pi_car) StdoutLine: {'line': b'copying launch/pi_car.launch.py -> /home/ubuntu/ros2_ws/install/pi_car/share/pi_car\n'}
+[5.933228] (pi_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.951962] (pi_car) StdoutLine: {'line': b'Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info\n'}
+[5.961600] (pi_car) StdoutLine: {'line': b'running install_scripts\n'}
+[6.023597] (-) TimerEvent: {}
+[6.111740] (pi_car) StdoutLine: {'line': b'Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car\n'}
+[6.114469] (pi_car) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'\n"}
+[6.123871] (-) TimerEvent: {}
+[6.225362] (-) TimerEvent: {}
+[6.320512] (pi_car) JobEnded: {'identifier': 'pi_car', 'rc': 'SIGINT'}
+[6.325565] (-) TimerEvent: {}
+[6.337271] (apriltag_ros) JobSkipped: {'identifier': 'apriltag_ros'}
+[6.338033] (opencv_cam) JobSkipped: {'identifier': 'opencv_cam'}
+[6.338317] (-) EventReactorShutdown: {}

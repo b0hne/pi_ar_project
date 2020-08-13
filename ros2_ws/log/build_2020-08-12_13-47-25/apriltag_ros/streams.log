@@ -1,0 +1,50 @@
+[0.135s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_ros
+[0.777s] -- The C compiler identification is GNU 9.3.0
+[1.390s] -- The CXX compiler identification is GNU 9.3.0
+[1.438s] -- Check for working C compiler: /usr/bin/cc
+[2.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.181s] -- Detecting C compiler ABI info
+[2.876s] -- Detecting C compiler ABI info - done
+[2.994s] -- Detecting C compile features
+[2.998s] -- Detecting C compile features - done
+[3.026s] -- Check for working CXX compiler: /usr/bin/c++
+[3.817s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.828s] -- Detecting CXX compiler ABI info
+[4.643s] -- Detecting CXX compiler ABI info - done
+[4.770s] -- Detecting CXX compile features
+[4.780s] -- Detecting CXX compile features - done
+[4.810s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[5.121s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.411s] -- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.253s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.537s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.222s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.250s] -- Looking for pthread.h
+[12.291s] -- Looking for pthread.h - found
+[12.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.072s] -- Looking for pthread_create in pthreads
+[13.653s] -- Looking for pthread_create in pthreads - not found
+[13.657s] -- Looking for pthread_create in pthread
+[14.442s] -- Looking for pthread_create in pthread - found
+[14.453s] -- Found Threads: TRUE  
+[16.371s] -- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[17.060s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[18.294s] -- Found apriltag_msgs: 2.0.0 (/home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake)
+[18.670s] -- Found tf2_msgs: 0.13.5 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[20.911s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[21.466s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[23.495s] -- Configuring done
+[23.962s] -- Generating done
+[23.988s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/apriltag_ros
+[24.351s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_ros
+[24.376s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4
+[25.120s] [35m[1mScanning dependencies of target AprilTagNode[0m
+[238.065s] make[2]: *** [CMakeFiles/AprilTagNode.dir/build.make:245: CMakeFiles/AprilTagNode.dir/depend] Interrupt
+[238.109s] make[1]: *** [CMakeFiles/Makefile2:77: CMakeFiles/AprilTagNode.dir/all] Interrupt
+[238.111s] make: *** [Makefile:141: all] Interrupt
+[238.118s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_ros' returned '-2': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/apriltag_ros -- -j4 -l4

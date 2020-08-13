@@ -1,0 +1,1613 @@
+[0.000000] (-) TimerEvent: {}
+[0.001992] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.002614] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.004532] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.007195] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag_msgs', '/home/ubuntu/ros2_ws/install/apriltag_msgs')])}
+[0.007739] (bno055_driver) JobQueued: {'identifier': 'bno055_driver', 'dependencies': OrderedDict([('serial', '/home/ubuntu/ros2_ws/install/serial')])}
+[0.008139] (opencv_cam) JobQueued: {'identifier': 'opencv_cam', 'dependencies': OrderedDict([('ros2_shared', '/home/ubuntu/ros2_ws/install/ros2_shared')])}
+[0.008367] (pi_car) JobQueued: {'identifier': 'pi_car', 'dependencies': OrderedDict([('ros2_shared', '/home/ubuntu/ros2_ws/install/ros2_shared'), ('opencv_cam', '/home/ubuntu/ros2_ws/install/opencv_cam')])}
+[0.008548] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.098826] (-) TimerEvent: {}
+[0.108719] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.156910] (serial) JobStarted: {'identifier': 'serial'}
+[0.198964] (-) TimerEvent: {}
+[0.219547] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.227305] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.232681] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/ros2_shared', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[0.282421] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.299245] (-) TimerEvent: {}
+[0.302556] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'build'}
+[0.306352] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/apriltag_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[0.347565] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.349139] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/serial-ros2', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/serial'], 'cwd': '/home/ubuntu/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[0.399754] (-) TimerEvent: {}
+[0.502495] (-) TimerEvent: {}
+[0.605992] (-) TimerEvent: {}
+[0.707889] (-) TimerEvent: {}
+[0.809932] (-) TimerEvent: {}
+[0.912545] (-) TimerEvent: {}
+[1.013819] (-) TimerEvent: {}
+[1.100074] (ros2_shared) CommandEnded: {'returncode': 0}
+[1.116510] (-) TimerEvent: {}
+[1.220440] (-) TimerEvent: {}
+[1.225424] (apriltag_msgs) StdoutLine: {'line': b'[  2%] Built target apriltag_msgs__cpp\n'}
+[1.298992] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[1.299677] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] Built target apriltag_msgs__rosidl_generator_c\n'}
+[1.320901] (-) TimerEvent: {}
+[1.395093] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/ros2_shared'], 'cwd': '/home/ubuntu/ros2_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[1.421895] (-) TimerEvent: {}
+[1.501588] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.504581] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include\n'}
+[1.505978] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared\n'}
+[1.507194] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[1.508482] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[1.511415] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[1.513572] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[1.522444] (-) TimerEvent: {}
+[1.525620] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[1.528210] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[1.529646] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[1.531961] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[1.533287] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[1.535963] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[1.539087] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[1.540821] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[1.542619] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[1.561342] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[1.562799] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.564326] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[1.576986] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[1.583107] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[1.584305] (ros2_shared) CommandEnded: {'returncode': 0}
+[1.590741] (apriltag_msgs) StdoutLine: {'line': b'[ 23%] Built target apriltag_msgs__rosidl_typesupport_cpp\n'}
+[1.592042] (apriltag_msgs) StdoutLine: {'line': b'[ 34%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.593026] (apriltag_msgs) StdoutLine: {'line': b'[ 44%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.622845] (-) TimerEvent: {}
+[1.629314] (apriltag_msgs) StdoutLine: {'line': b'[ 55%] Built target apriltag_msgs__rosidl_typesupport_introspection_c\n'}
+[1.723922] (-) TimerEvent: {}
+[1.795528] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[1.801354] (opencv_cam) JobStarted: {'identifier': 'opencv_cam'}
+[1.833814] (apriltag_msgs) StdoutLine: {'line': b'[ 65%] Built target apriltag_msgs__rosidl_typesupport_c\n'}
+[1.835795] (-) TimerEvent: {}
+[1.875793] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.904160] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'cmake'}
+[1.925419] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'build'}
+[1.928252] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/opencv_cam', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/opencv_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/opencv_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[1.948189] (-) TimerEvent: {}
+[2.053961] (-) TimerEvent: {}
+[2.059217] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs\n'}
+[2.154332] (-) TimerEvent: {}
+[2.256013] (-) TimerEvent: {}
+[2.268506] (apriltag_msgs) StdoutLine: {'line': b'[ 78%] Built target apriltag_msgs__py\n'}
+[2.356355] (-) TimerEvent: {}
+[2.458191] (-) TimerEvent: {}
+[2.524297] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[2.551963] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] Built target apriltag_msgs__python\n'}
+[2.553819] (opencv_cam) StdoutLine: {'line': b'[ 25%] Built target subscriber_node\n'}
+[2.558614] (-) TimerEvent: {}
+[2.592510] (opencv_cam) StdoutLine: {'line': b'[ 50%] Built target opencv_cam_node\n'}
+[2.658958] (-) TimerEvent: {}
+[2.760742] (-) TimerEvent: {}
+[2.847479] (apriltag_msgs) StdoutLine: {'line': b'[ 91%] Built target apriltag_msgs__rosidl_typesupport_c__pyext\n'}
+[2.861612] (-) TimerEvent: {}
+[2.863319] (apriltag_msgs) StdoutLine: {'line': b'[ 95%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.893682] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.961897] (-) TimerEvent: {}
+[2.983414] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[2.996719] (opencv_cam) StdoutLine: {'line': b'[ 75%] Built target opencv_cam_main\n'}
+[3.032266] (opencv_cam) StdoutLine: {'line': b'[100%] Built target ipc_test_main\n'}
+[3.062242] (-) TimerEvent: {}
+[3.114422] (opencv_cam) CommandEnded: {'returncode': 0}
+[3.162708] (-) TimerEvent: {}
+[3.265603] (-) TimerEvent: {}
+[3.368221] (-) TimerEvent: {}
+[3.387224] (opencv_cam) JobProgress: {'identifier': 'opencv_cam', 'progress': 'install'}
+[3.389895] (opencv_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/opencv_cam'], 'cwd': '/home/ubuntu/ros2_ws/build/opencv_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/opencv_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[3.468623] (-) TimerEvent: {}
+[3.474549] (opencv_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.477576] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh\n'}
+[3.479567] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv\n'}
+[3.480799] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam\n'}
+[3.481953] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam\n'}
+[3.484991] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh\n'}
+[3.486806] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv\n'}
+[3.488623] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh\n'}
+[3.490235] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv\n'}
+[3.492348] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash\n'}
+[3.493634] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh\n'}
+[3.494757] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh\n'}
+[3.496577] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv\n'}
+[3.499399] (opencv_cam) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv\n'}
+[3.500963] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam\n'}
+[3.502148] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam\n'}
+[3.504997] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake\n'}
+[3.506746] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake\n'}
+[3.508618] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake\n'}
+[3.512271] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake\n'}
+[3.513784] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.515099] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.516548] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_interfaces-extras.cmake\n'}
+[3.520579] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.522193] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake\n'}
+[3.526563] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake\n'}
+[3.527732] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/package.xml\n'}
+[3.528989] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so\n'}
+[3.530428] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/libsubscriber_node.so\n'}
+[3.546048] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main\n'}
+[3.561030] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main\n'}
+[3.563126] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch\n'}
+[3.564724] (opencv_cam) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py\n'}
+[3.568806] (-) TimerEvent: {}
+[3.576657] (opencv_cam) CommandEnded: {'returncode': 0}
+[3.669028] (-) TimerEvent: {}
+[3.671544] (opencv_cam) JobEnded: {'identifier': 'opencv_cam', 'rc': 0}
+[3.687410] (pi_car) JobStarted: {'identifier': 'pi_car'}
+[3.767051] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'install'}
+[3.769639] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/apriltag_msgs'], 'cwd': '/home/ubuntu/ros2_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[3.786698] (-) TimerEvent: {}
+[3.861432] (apriltag_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.864492] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs\n'}
+[3.866932] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[3.869446] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[3.873740] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/point.h\n'}
+[3.876360] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection_array.h\n'}
+[3.878358] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection.h\n'}
+[3.879675] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[3.881358] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__functions.h\n'}
+[3.883718] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__struct.h\n'}
+[3.885103] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__functions.c\n'}
+[3.887946] (-) TimerEvent: {}
+[3.890961] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__functions.c\n'}
+[3.892677] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__functions.h\n'}
+[3.894637] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h\n'}
+[3.896039] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c\n'}
+[3.898440] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h\n'}
+[3.900122] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.h\n'}
+[3.903727] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.h\n'}
+[3.906516] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h\n'}
+[3.908096] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__struct.h\n'}
+[3.909520] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.910797] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh\n'}
+[3.913050] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv\n'}
+[3.914229] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so\n'}
+[3.917023] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[3.919844] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[3.921745] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.923206] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[3.924623] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[3.926432] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[3.928347] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[3.930221] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.932104] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[3.933861] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[3.935294] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.939375] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[3.944440] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/dds_fastrtps\n'}
+[3.948615] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.951953] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.953355] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.955110] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.956831] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[3.958891] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[3.960382] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[3.961819] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.c\n'}
+[3.963073] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h\n'}
+[3.964881] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c\n'}
+[3.966696] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.c\n'}
+[3.969173] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[3.972796] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[3.974496] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.976091] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.978242] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so\n'}
+[3.980121] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[3.982032] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[3.984206] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection.hpp\n'}
+[3.986283] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[3.988867] (-) TimerEvent: {}
+[3.992081] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp\n'}
+[3.993966] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp\n'}
+[3.997396] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp\n'}
+[4.000133] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp\n'}
+[4.002048] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__builder.hpp\n'}
+[4.003619] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp\n'}
+[4.005444] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__struct.hpp\n'}
+[4.007696] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__traits.hpp\n'}
+[4.009872] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp\n'}
+[4.012369] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/point.hpp\n'}
+[4.013950] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/april_tag_detection_array.hpp\n'}
+[4.015444] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs\n'}
+[4.017256] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg\n'}
+[4.019156] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail\n'}
+[4.020999] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.022777] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp\n'}
+[4.024342] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.026032] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/point__type_support.cpp\n'}
+[4.028006] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp\n'}
+[4.029825] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/include/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.031208] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.032785] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so\n'}
+[4.034202] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh\n'}
+[4.035563] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv\n'}
+[4.036743] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/__init__.py\n'}
+[4.089147] (-) TimerEvent: {}
+[4.122054] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[4.188241] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.189571] (-) TimerEvent: {}
+[4.292111] (-) TimerEvent: {}
+[4.346607] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg\n'}
+[4.349614] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection.py\n'}
+[4.352462] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c\n'}
+[4.353877] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/__init__.py\n'}
+[4.355641] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_array.py\n'}
+[4.357342] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_point.py\n'}
+[4.359603] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_april_tag_detection_s.c\n'}
+[4.360794] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/msg/_point_s.c\n'}
+[4.361958] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.367046] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.375462] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.383684] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/lib/libapriltag_msgs__python.so\n'}
+[4.388440] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl\n'}
+[4.391152] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl\n'}
+[4.392706] (-) TimerEvent: {}
+[4.395635] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl\n'}
+[4.399682] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg\n'}
+[4.403149] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg\n'}
+[4.406512] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg\n'}
+[4.410267] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs\n'}
+[4.411750] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs\n'}
+[4.413168] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh\n'}
+[4.415559] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv\n'}
+[4.416943] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh\n'}
+[4.418899] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv\n'}
+[4.422172] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash\n'}
+[4.424252] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh\n'}
+[4.425979] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh\n'}
+[4.428955] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv\n'}
+[4.430184] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv\n'}
+[4.431249] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs\n'}
+[4.433039] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cExport.cmake\n'}
+[4.434676] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.436021] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.437042] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.438105] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.440123] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.441466] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.443585] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.445474] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.449660] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.452183] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.454806] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.457368] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.458841] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.461844] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.463937] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.465579] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.467917] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.469640] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake\n'}
+[4.471157] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake\n'}
+[4.472960] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml\n'}
+[4.493056] (-) TimerEvent: {}
+[4.594429] (-) TimerEvent: {}
+[4.695929] (-) TimerEvent: {}
+[4.797336] (-) TimerEvent: {}
+[4.814746] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.825564] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.897618] (-) TimerEvent: {}
+[4.998924] (-) TimerEvent: {}
+[5.100582] (-) TimerEvent: {}
+[5.202084] (-) TimerEvent: {}
+[5.303534] (-) TimerEvent: {}
+[5.405187] (-) TimerEvent: {}
+[5.418235] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.505459] (-) TimerEvent: {}
+[5.519882] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.523953] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.550357] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.605748] (-) TimerEvent: {}
+[5.707174] (-) TimerEvent: {}
+[5.808675] (-) TimerEvent: {}
+[5.910274] (-) TimerEvent: {}
+[6.011852] (-) TimerEvent: {}
+[6.065011] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[6.112459] (-) TimerEvent: {}
+[6.191475] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 0}
+[6.210569] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[6.221686] (-) TimerEvent: {}
+[6.225357] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.229260] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.265446] (pi_car) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/ros2_ws/build/pi_car', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/pi_car/build', 'install', '--prefix', '/home/ubuntu/ros2_ws/install/pi_car', '--record', '/home/ubuntu/ros2_ws/build/pi_car/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/pi_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.0.2 44992 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/pi_car', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.2 44992 192.168.0.4 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs'}, 'shell': False}
+[6.301118] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[6.312183] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[6.319632] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/apriltag_ros', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[6.335489] (-) TimerEvent: {}
+[6.437280] (-) TimerEvent: {}
+[6.538894] (-) TimerEvent: {}
+[6.640447] (-) TimerEvent: {}
+[6.742850] (-) TimerEvent: {}
+[6.845201] (-) TimerEvent: {}
+[6.946427] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.947607] (-) TimerEvent: {}
+[7.049731] (-) TimerEvent: {}
+[7.052934] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[7.056314] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.059409] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.100850] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.138696] (apriltag_ros) CommandEnded: {'returncode': 0}
+[7.150609] (-) TimerEvent: {}
+[7.254202] (-) TimerEvent: {}
+[7.356442] (-) TimerEvent: {}
+[7.361825] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[7.365534] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/apriltag_ros'], 'cwd': '/home/ubuntu/ros2_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[7.414271] (serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") \n'}
+[7.417294] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.456805] (-) TimerEvent: {}
+[7.460915] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.463841] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[7.465945] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[7.470857] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[7.473981] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg\n'}
+[7.477973] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11_all.yaml\n'}
+[7.480833] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_all.yaml\n'}
+[7.498151] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_16h5_filtered.yaml\n'}
+[7.500246] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_25h7_all .yaml\n'}
+[7.501954] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch\n'}
+[7.503901] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/36h11.launch.py\n'}
+[7.505982] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/launch/tag_16h5_all.launch.py\n'}
+[7.508490] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[7.510699] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[7.512700] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[7.514603] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[7.516742] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[7.518090] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[7.519508] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[7.521315] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[7.523063] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[7.525469] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[7.527798] (apriltag_ros) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[7.529721] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[7.531203] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[7.533001] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[7.534497] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[7.536503] (apriltag_ros) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[7.553483] (apriltag_ros) CommandEnded: {'returncode': 0}
+[7.559467] (-) TimerEvent: {}
+[7.648765] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[7.659629] (-) TimerEvent: {}
+[7.761011] (-) TimerEvent: {}
+[7.862435] (-) TimerEvent: {}
+[7.963803] (-) TimerEvent: {}
+[8.065081] (-) TimerEvent: {}
+[8.166329] (-) TimerEvent: {}
+[8.267551] (-) TimerEvent: {}
+[8.369281] (-) TimerEvent: {}
+[8.420881] (pi_car) StdoutLine: {'line': b'running egg_info\n'}
+[8.426057] (pi_car) StdoutLine: {'line': b'writing /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/PKG-INFO\n'}
+[8.428399] (pi_car) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/dependency_links.txt\n'}
+[8.430612] (pi_car) StdoutLine: {'line': b'writing entry points to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/entry_points.txt\n'}
+[8.432363] (pi_car) StdoutLine: {'line': b'writing requirements to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/requires.txt\n'}
+[8.434056] (pi_car) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/top_level.txt\n'}
+[8.469514] (-) TimerEvent: {}
+[8.571077] (-) TimerEvent: {}
+[8.672580] (-) TimerEvent: {}
+[8.773868] (-) TimerEvent: {}
+[8.776638] (pi_car) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'\n"}
+[8.786128] (pi_car) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info/SOURCES.txt'\n"}
+[8.787618] (pi_car) StdoutLine: {'line': b'running build\n'}
+[8.789006] (pi_car) StdoutLine: {'line': b'running build_py\n'}
+[8.791157] (pi_car) StdoutLine: {'line': b'running install\n'}
+[8.799680] (pi_car) StdoutLine: {'line': b'running install_lib\n'}
+[8.814285] (pi_car) StdoutLine: {'line': b'running install_data\n'}
+[8.820102] (pi_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.837103] (pi_car) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.840046] (pi_car) StdoutLine: {'line': b'Copying /home/ubuntu/ros2_ws/build/pi_car/pi_car.egg-info to /home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages/pi_car-0.0.0-py3.8.egg-info\n'}
+[8.851586] (pi_car) StdoutLine: {'line': b'running install_scripts\n'}
+[8.874176] (-) TimerEvent: {}
+[8.975590] (-) TimerEvent: {}
+[9.014832] (pi_car) StdoutLine: {'line': b'Installing pi_car script to /home/ubuntu/ros2_ws/install/pi_car/lib/pi_car\n'}
+[9.018256] (pi_car) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/pi_car/install.log'\n"}
+[9.075935] (-) TimerEvent: {}
+[9.177725] (-) TimerEvent: {}
+[9.234937] (pi_car) CommandEnded: {'returncode': 0}
+[9.279398] (-) TimerEvent: {}
+[9.295812] (pi_car) JobEnded: {'identifier': 'pi_car', 'rc': 0}
+[9.379624] (-) TimerEvent: {}
+[9.480979] (-) TimerEvent: {}
+[9.582143] (-) TimerEvent: {}
+[9.683291] (-) TimerEvent: {}
+[9.784422] (-) TimerEvent: {}
+[9.885581] (-) TimerEvent: {}
+[9.986749] (-) TimerEvent: {}
+[10.087975] (-) TimerEvent: {}
+[10.189247] (-) TimerEvent: {}
+[10.290881] (-) TimerEvent: {}
+[10.392320] (-) TimerEvent: {}
+[10.493885] (-) TimerEvent: {}
+[10.595443] (-) TimerEvent: {}
+[10.697005] (-) TimerEvent: {}
+[10.798563] (-) TimerEvent: {}
+[10.900145] (-) TimerEvent: {}
+[11.001648] (-) TimerEvent: {}
+[11.103132] (-) TimerEvent: {}
+[11.204781] (-) TimerEvent: {}
+[11.306459] (-) TimerEvent: {}
+[11.408046] (-) TimerEvent: {}
+[11.509576] (-) TimerEvent: {}
+[11.611154] (-) TimerEvent: {}
+[11.712762] (-) TimerEvent: {}
+[11.814311] (-) TimerEvent: {}
+[11.915835] (-) TimerEvent: {}
+[12.017635] (-) TimerEvent: {}
+[12.119212] (-) TimerEvent: {}
+[12.220820] (-) TimerEvent: {}
+[12.322440] (-) TimerEvent: {}
+[12.424006] (-) TimerEvent: {}
+[12.451141] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.480338] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[12.507945] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/serial\n'}
+[12.524287] (-) TimerEvent: {}
+[12.529628] (serial) CommandEnded: {'returncode': 0}
+[12.533545] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[12.535567] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[12.624575] (-) TimerEvent: {}
+[12.725851] (-) TimerEvent: {}
+[12.827107] (-) TimerEvent: {}
+[12.834703] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial\x1b[0m\n'}
+[12.927549] (-) TimerEvent: {}
+[12.940098] (serial) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[12.943455] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[12.947491] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[13.027905] (-) TimerEvent: {}
+[13.130021] (-) TimerEvent: {}
+[13.232207] (-) TimerEvent: {}
+[13.333324] (-) TimerEvent: {}
+[13.435457] (-) TimerEvent: {}
+[13.537977] (-) TimerEvent: {}
+[13.640629] (-) TimerEvent: {}
+[13.743033] (-) TimerEvent: {}
+[13.846919] (-) TimerEvent: {}
+[13.949959] (-) TimerEvent: {}
+[14.052865] (-) TimerEvent: {}
+[14.155641] (-) TimerEvent: {}
+[14.258717] (-) TimerEvent: {}
+[14.361622] (-) TimerEvent: {}
+[14.464972] (-) TimerEvent: {}
+[14.567772] (-) TimerEvent: {}
+[14.670860] (-) TimerEvent: {}
+[14.775976] (-) TimerEvent: {}
+[14.879169] (-) TimerEvent: {}
+[14.982023] (-) TimerEvent: {}
+[15.085024] (-) TimerEvent: {}
+[15.188681] (-) TimerEvent: {}
+[15.294377] (-) TimerEvent: {}
+[15.397469] (-) TimerEvent: {}
+[15.501795] (-) TimerEvent: {}
+[15.604968] (-) TimerEvent: {}
+[15.707904] (-) TimerEvent: {}
+[15.811742] (-) TimerEvent: {}
+[15.914622] (-) TimerEvent: {}
+[16.017900] (-) TimerEvent: {}
+[16.120501] (-) TimerEvent: {}
+[16.223579] (-) TimerEvent: {}
+[16.326254] (-) TimerEvent: {}
+[16.429550] (-) TimerEvent: {}
+[16.533835] (-) TimerEvent: {}
+[16.636847] (-) TimerEvent: {}
+[16.739875] (-) TimerEvent: {}
+[16.843080] (-) TimerEvent: {}
+[16.946166] (-) TimerEvent: {}
+[17.048598] (-) TimerEvent: {}
+[17.150926] (-) TimerEvent: {}
+[17.252230] (-) TimerEvent: {}
+[17.353471] (-) TimerEvent: {}
+[17.415011] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[17.453756] (-) TimerEvent: {}
+[17.555042] (-) TimerEvent: {}
+[17.707965] (-) TimerEvent: {}
+[17.767861] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[17.808258] (-) TimerEvent: {}
+[17.841918] (serial) CommandEnded: {'returncode': 0}
+[17.908622] (-) TimerEvent: {}
+[18.009987] (-) TimerEvent: {}
+[18.070952] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[18.072828] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/serial'], 'cwd': '/home/ubuntu/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[18.110416] (-) TimerEvent: {}
+[18.144459] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.145844] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[18.147812] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[18.149852] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/lib/libserial.a\n'}
+[18.155606] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/include/serial/serial.h\n'}
+[18.156977] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[18.159409] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[18.161841] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[18.163760] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[18.165580] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[18.167471] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[18.169288] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[18.171058] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[18.172952] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[18.174663] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[18.176476] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[18.178205] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/package.dsv\n'}
+[18.180455] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[18.182656] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.184642] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.186611] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[18.188029] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[18.189822] (serial) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/serial/share/serial/package.xml\n'}
+[18.200220] (serial) CommandEnded: {'returncode': 0}
+[18.211836] (-) TimerEvent: {}
+[18.265638] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[18.288740] (bno055_driver) JobStarted: {'identifier': 'bno055_driver'}
+[18.312294] (-) TimerEvent: {}
+[18.344157] (bno055_driver) JobProgress: {'identifier': 'bno055_driver', 'progress': 'cmake'}
+[18.351920] (bno055_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/ros2_bno055_driver', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/bno055_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/bno055_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/bno055_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[18.412551] (-) TimerEvent: {}
+[18.472050] (bno055_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[18.512760] (-) TimerEvent: {}
+[18.614146] (-) TimerEvent: {}
+[18.663226] (bno055_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[18.714416] (-) TimerEvent: {}
+[18.815519] (-) TimerEvent: {}
+[18.916627] (-) TimerEvent: {}
+[19.017735] (-) TimerEvent: {}
+[19.118912] (-) TimerEvent: {}
+[19.220093] (-) TimerEvent: {}
+[19.321201] (-) TimerEvent: {}
+[19.422301] (-) TimerEvent: {}
+[19.523433] (-) TimerEvent: {}
+[19.624618] (-) TimerEvent: {}
+[19.725764] (-) TimerEvent: {}
+[19.826939] (-) TimerEvent: {}
+[19.928115] (-) TimerEvent: {}
+[20.029316] (-) TimerEvent: {}
+[20.130711] (-) TimerEvent: {}
+[20.159626] (bno055_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.3 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[20.230966] (-) TimerEvent: {}
+[20.290928] (bno055_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.327664] (bno055_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[20.331205] (-) TimerEvent: {}
+[20.432889] (-) TimerEvent: {}
+[20.534216] (-) TimerEvent: {}
+[20.635479] (-) TimerEvent: {}
+[20.736580] (-) TimerEvent: {}
+[20.837717] (-) TimerEvent: {}
+[20.938906] (-) TimerEvent: {}
+[21.040078] (-) TimerEvent: {}
+[21.141248] (-) TimerEvent: {}
+[21.242438] (-) TimerEvent: {}
+[21.343595] (-) TimerEvent: {}
+[21.444720] (-) TimerEvent: {}
+[21.545939] (-) TimerEvent: {}
+[21.647177] (-) TimerEvent: {}
+[21.678913] (bno055_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.747509] (-) TimerEvent: {}
+[21.848740] (-) TimerEvent: {}
+[21.949931] (-) TimerEvent: {}
+[22.051181] (-) TimerEvent: {}
+[22.152684] (-) TimerEvent: {}
+[22.253865] (-) TimerEvent: {}
+[22.355030] (-) TimerEvent: {}
+[22.456366] (-) TimerEvent: {}
+[22.558093] (-) TimerEvent: {}
+[22.638942] (bno055_driver) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[22.671617] (-) TimerEvent: {}
+[22.766335] (bno055_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[22.771816] (-) TimerEvent: {}
+[22.872963] (-) TimerEvent: {}
+[22.974231] (-) TimerEvent: {}
+[23.075623] (-) TimerEvent: {}
+[23.128860] (bno055_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[23.152928] (bno055_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.175863] (-) TimerEvent: {}
+[23.277103] (-) TimerEvent: {}
+[23.378669] (-) TimerEvent: {}
+[23.479875] (-) TimerEvent: {}
+[23.581081] (-) TimerEvent: {}
+[23.682379] (-) TimerEvent: {}
+[23.783553] (-) TimerEvent: {}
+[23.884728] (-) TimerEvent: {}
+[23.985947] (-) TimerEvent: {}
+[24.087115] (-) TimerEvent: {}
+[24.188406] (-) TimerEvent: {}
+[24.289563] (-) TimerEvent: {}
+[24.390724] (-) TimerEvent: {}
+[24.401870] (bno055_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[24.490990] (-) TimerEvent: {}
+[24.592296] (-) TimerEvent: {}
+[24.693503] (-) TimerEvent: {}
+[24.794665] (-) TimerEvent: {}
+[24.895884] (-) TimerEvent: {}
+[24.907718] (bno055_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.1.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[24.996157] (-) TimerEvent: {}
+[25.056601] (bno055_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[25.096388] (-) TimerEvent: {}
+[25.197589] (-) TimerEvent: {}
+[25.298712] (-) TimerEvent: {}
+[25.399918] (-) TimerEvent: {}
+[25.501112] (-) TimerEvent: {}
+[25.602292] (-) TimerEvent: {}
+[25.703500] (-) TimerEvent: {}
+[25.804667] (-) TimerEvent: {}
+[25.905871] (-) TimerEvent: {}
+[26.007030] (-) TimerEvent: {}
+[26.058452] (bno055_driver) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/ubuntu/ros2_ws/install/serial/share/serial/cmake)\n'}
+[26.107258] (-) TimerEvent: {}
+[26.116862] (bno055_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.5 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[26.207554] (-) TimerEvent: {}
+[26.308699] (-) TimerEvent: {}
+[26.409929] (-) TimerEvent: {}
+[26.511074] (-) TimerEvent: {}
+[26.612335] (-) TimerEvent: {}
+[26.713521] (-) TimerEvent: {}
+[26.814652] (-) TimerEvent: {}
+[26.915813] (-) TimerEvent: {}
+[27.013973] (bno055_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[27.015975] (-) TimerEvent: {}
+[27.029300] (bno055_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[27.116264] (-) TimerEvent: {}
+[27.217747] (-) TimerEvent: {}
+[27.319029] (-) TimerEvent: {}
+[27.420334] (-) TimerEvent: {}
+[27.521576] (-) TimerEvent: {}
+[27.622838] (-) TimerEvent: {}
+[27.724217] (-) TimerEvent: {}
+[27.755141] (bno055_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[27.793041] (bno055_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[27.824394] (-) TimerEvent: {}
+[27.850404] (bno055_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[27.852317] (bno055_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/ros2_bno055_driver/include>\n'}
+[27.853426] (bno055_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[27.906199] (bno055_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[27.907400] (bno055_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[27.924630] (-) TimerEvent: {}
+[27.932432] (bno055_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[27.993730] (bno055_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[27.994849] (bno055_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[28.005736] (bno055_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[28.024854] (-) TimerEvent: {}
+[28.053557] (bno055_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[28.125094] (-) TimerEvent: {}
+[28.226206] (-) TimerEvent: {}
+[28.241751] (bno055_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[28.259731] (bno055_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/bno055_driver\n'}
+[28.318799] (bno055_driver) CommandEnded: {'returncode': 0}
+[28.323237] (bno055_driver) JobProgress: {'identifier': 'bno055_driver', 'progress': 'build'}
+[28.326704] (bno055_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/bno055_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/bno055_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/bno055_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[28.343162] (-) TimerEvent: {}
+[28.444570] (-) TimerEvent: {}
+[28.545848] (-) TimerEvent: {}
+[28.647105] (-) TimerEvent: {}
+[28.676261] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[28.677849] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bno055\x1b[0m\n'}
+[28.681028] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[28.747492] (-) TimerEvent: {}
+[28.849811] (-) TimerEvent: {}
+[28.882331] (bno055_driver) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[28.894208] (bno055_driver) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[28.950155] (-) TimerEvent: {}
+[29.052526] (-) TimerEvent: {}
+[29.154554] (-) TimerEvent: {}
+[29.257254] (-) TimerEvent: {}
+[29.359845] (-) TimerEvent: {}
+[29.406627] (bno055_driver) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/bno055.dir/src/bno055_uart.cpp.o\x1b[0m\n'}
+[29.408373] (bno055_driver) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/bno055.dir/src/bno055_driver.cpp.o\x1b[0m\n'}
+[29.460181] (-) TimerEvent: {}
+[29.562457] (-) TimerEvent: {}
+[29.663773] (-) TimerEvent: {}
+[29.765793] (-) TimerEvent: {}
+[29.868319] (-) TimerEvent: {}
+[29.970739] (-) TimerEvent: {}
+[30.072553] (-) TimerEvent: {}
+[30.174364] (-) TimerEvent: {}
+[30.275927] (-) TimerEvent: {}
+[30.377655] (-) TimerEvent: {}
+[30.479217] (-) TimerEvent: {}
+[30.580995] (-) TimerEvent: {}
+[30.682756] (-) TimerEvent: {}
+[30.784634] (-) TimerEvent: {}
+[30.886513] (-) TimerEvent: {}
+[30.988362] (-) TimerEvent: {}
+[31.090141] (-) TimerEvent: {}
+[31.191806] (-) TimerEvent: {}
+[31.293776] (-) TimerEvent: {}
+[31.395780] (-) TimerEvent: {}
+[31.497556] (-) TimerEvent: {}
+[31.599309] (-) TimerEvent: {}
+[31.701209] (-) TimerEvent: {}
+[31.803026] (-) TimerEvent: {}
+[31.904899] (-) TimerEvent: {}
+[32.006673] (-) TimerEvent: {}
+[32.108622] (-) TimerEvent: {}
+[32.210472] (-) TimerEvent: {}
+[32.312131] (-) TimerEvent: {}
+[32.413804] (-) TimerEvent: {}
+[32.515284] (-) TimerEvent: {}
+[32.617051] (-) TimerEvent: {}
+[32.718817] (-) TimerEvent: {}
+[32.924639] (-) TimerEvent: {}
+[33.026406] (-) TimerEvent: {}
+[33.128461] (-) TimerEvent: {}
+[33.230749] (-) TimerEvent: {}
+[33.332569] (-) TimerEvent: {}
+[33.434459] (-) TimerEvent: {}
+[33.536386] (-) TimerEvent: {}
+[33.638097] (-) TimerEvent: {}
+[33.739910] (-) TimerEvent: {}
+[33.841797] (-) TimerEvent: {}
+[33.943670] (-) TimerEvent: {}
+[34.045382] (-) TimerEvent: {}
+[34.147104] (-) TimerEvent: {}
+[34.249062] (-) TimerEvent: {}
+[34.350896] (-) TimerEvent: {}
+[34.452762] (-) TimerEvent: {}
+[34.554682] (-) TimerEvent: {}
+[34.656609] (-) TimerEvent: {}
+[34.758430] (-) TimerEvent: {}
+[34.860203] (-) TimerEvent: {}
+[34.962816] (-) TimerEvent: {}
+[35.065600] (-) TimerEvent: {}
+[35.168389] (-) TimerEvent: {}
+[35.271151] (-) TimerEvent: {}
+[35.373934] (-) TimerEvent: {}
+[35.476902] (-) TimerEvent: {}
+[35.579640] (-) TimerEvent: {}
+[35.682537] (-) TimerEvent: {}
+[35.785373] (-) TimerEvent: {}
+[35.888294] (-) TimerEvent: {}
+[35.991030] (-) TimerEvent: {}
+[36.095092] (-) TimerEvent: {}
+[36.197888] (-) TimerEvent: {}
+[36.300550] (-) TimerEvent: {}
+[36.402865] (-) TimerEvent: {}
+[36.505693] (-) TimerEvent: {}
+[36.568973] (bno055_driver) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[36.606065] (-) TimerEvent: {}
+[36.708970] (-) TimerEvent: {}
+[36.810674] (-) TimerEvent: {}
+[36.874813] (bno055_driver) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[36.911000] (-) TimerEvent: {}
+[37.013537] (-) TimerEvent: {}
+[37.115109] (-) TimerEvent: {}
+[37.216650] (-) TimerEvent: {}
+[37.318218] (-) TimerEvent: {}
+[37.419760] (-) TimerEvent: {}
+[37.521244] (-) TimerEvent: {}
+[37.622697] (-) TimerEvent: {}
+[37.724231] (-) TimerEvent: {}
+[37.825871] (-) TimerEvent: {}
+[37.935286] (-) TimerEvent: {}
+[38.036900] (-) TimerEvent: {}
+[38.138425] (-) TimerEvent: {}
+[38.240079] (-) TimerEvent: {}
+[38.341618] (-) TimerEvent: {}
+[38.443213] (-) TimerEvent: {}
+[38.544849] (-) TimerEvent: {}
+[38.646397] (-) TimerEvent: {}
+[38.747915] (-) TimerEvent: {}
+[38.849370] (-) TimerEvent: {}
+[38.950924] (-) TimerEvent: {}
+[39.052428] (-) TimerEvent: {}
+[39.153880] (-) TimerEvent: {}
+[39.255444] (-) TimerEvent: {}
+[39.356887] (-) TimerEvent: {}
+[39.458447] (-) TimerEvent: {}
+[39.559898] (-) TimerEvent: {}
+[39.661346] (-) TimerEvent: {}
+[39.762878] (-) TimerEvent: {}
+[39.864418] (-) TimerEvent: {}
+[39.966077] (-) TimerEvent: {}
+[40.069183] (-) TimerEvent: {}
+[40.170758] (-) TimerEvent: {}
+[40.272431] (-) TimerEvent: {}
+[40.375090] (-) TimerEvent: {}
+[40.476793] (-) TimerEvent: {}
+[40.578345] (-) TimerEvent: {}
+[40.679880] (-) TimerEvent: {}
+[40.781353] (-) TimerEvent: {}
+[40.882884] (-) TimerEvent: {}
+[40.985507] (-) TimerEvent: {}
+[41.087318] (-) TimerEvent: {}
+[41.189790] (-) TimerEvent: {}
+[41.291771] (-) TimerEvent: {}
+[41.393818] (-) TimerEvent: {}
+[41.496455] (-) TimerEvent: {}
+[41.598314] (-) TimerEvent: {}
+[41.700318] (-) TimerEvent: {}
+[41.802262] (-) TimerEvent: {}
+[41.904281] (-) TimerEvent: {}
+[42.006258] (-) TimerEvent: {}
+[42.108154] (-) TimerEvent: {}
+[42.210390] (-) TimerEvent: {}
+[42.312277] (-) TimerEvent: {}
+[42.414536] (-) TimerEvent: {}
+[42.517296] (-) TimerEvent: {}
+[42.619215] (-) TimerEvent: {}
+[42.720867] (-) TimerEvent: {}
+[42.822375] (-) TimerEvent: {}
+[42.923819] (-) TimerEvent: {}
+[43.026231] (-) TimerEvent: {}
+[43.127841] (-) TimerEvent: {}
+[43.229357] (-) TimerEvent: {}
+[43.330972] (-) TimerEvent: {}
+[43.432675] (-) TimerEvent: {}
+[43.534359] (-) TimerEvent: {}
+[43.635877] (-) TimerEvent: {}
+[43.737454] (-) TimerEvent: {}
+[43.838994] (-) TimerEvent: {}
+[43.940543] (-) TimerEvent: {}
+[44.042059] (-) TimerEvent: {}
+[44.143508] (-) TimerEvent: {}
+[44.244895] (-) TimerEvent: {}
+[44.346270] (-) TimerEvent: {}
+[44.447569] (-) TimerEvent: {}
+[44.548997] (-) TimerEvent: {}
+[44.650505] (-) TimerEvent: {}
+[44.751897] (-) TimerEvent: {}
+[44.853300] (-) TimerEvent: {}
+[44.954609] (-) TimerEvent: {}
+[45.056030] (-) TimerEvent: {}
+[45.157439] (-) TimerEvent: {}
+[45.259165] (-) TimerEvent: {}
+[45.360846] (-) TimerEvent: {}
+[45.462367] (-) TimerEvent: {}
+[45.563983] (-) TimerEvent: {}
+[45.665517] (-) TimerEvent: {}
+[45.766981] (-) TimerEvent: {}
+[45.868544] (-) TimerEvent: {}
+[45.970162] (-) TimerEvent: {}
+[46.071742] (-) TimerEvent: {}
+[46.173198] (-) TimerEvent: {}
+[46.274750] (-) TimerEvent: {}
+[46.376209] (-) TimerEvent: {}
+[46.477632] (-) TimerEvent: {}
+[46.579258] (-) TimerEvent: {}
+[46.680872] (-) TimerEvent: {}
+[46.782394] (-) TimerEvent: {}
+[46.883768] (-) TimerEvent: {}
+[46.985275] (-) TimerEvent: {}
+[47.086858] (-) TimerEvent: {}
+[47.188507] (-) TimerEvent: {}
+[47.290135] (-) TimerEvent: {}
+[47.391741] (-) TimerEvent: {}
+[47.493328] (-) TimerEvent: {}
+[47.594959] (-) TimerEvent: {}
+[47.696392] (-) TimerEvent: {}
+[47.797678] (-) TimerEvent: {}
+[47.899029] (-) TimerEvent: {}
+[48.000611] (-) TimerEvent: {}
+[48.102064] (-) TimerEvent: {}
+[48.203606] (-) TimerEvent: {}
+[48.305111] (-) TimerEvent: {}
+[48.407053] (-) TimerEvent: {}
+[48.509221] (-) TimerEvent: {}
+[48.610870] (-) TimerEvent: {}
+[48.712582] (-) TimerEvent: {}
+[48.814205] (-) TimerEvent: {}
+[48.915610] (-) TimerEvent: {}
+[49.017084] (-) TimerEvent: {}
+[49.118609] (-) TimerEvent: {}
+[49.220247] (-) TimerEvent: {}
+[49.321797] (-) TimerEvent: {}
+[49.423476] (-) TimerEvent: {}
+[49.525049] (-) TimerEvent: {}
+[49.626468] (-) TimerEvent: {}
+[49.727916] (-) TimerEvent: {}
+[49.829317] (-) TimerEvent: {}
+[49.930789] (-) TimerEvent: {}
+[50.032318] (-) TimerEvent: {}
+[50.133798] (-) TimerEvent: {}
+[50.235246] (-) TimerEvent: {}
+[50.336966] (-) TimerEvent: {}
+[50.438551] (-) TimerEvent: {}
+[50.540221] (-) TimerEvent: {}
+[50.641696] (-) TimerEvent: {}
+[50.743218] (-) TimerEvent: {}
+[50.844808] (-) TimerEvent: {}
+[50.946486] (-) TimerEvent: {}
+[51.048052] (-) TimerEvent: {}
+[51.149597] (-) TimerEvent: {}
+[51.251099] (-) TimerEvent: {}
+[51.352652] (-) TimerEvent: {}
+[51.454285] (-) TimerEvent: {}
+[51.556717] (-) TimerEvent: {}
+[51.658667] (-) TimerEvent: {}
+[51.762111] (-) TimerEvent: {}
+[51.863629] (-) TimerEvent: {}
+[51.965059] (-) TimerEvent: {}
+[52.066579] (-) TimerEvent: {}
+[52.168134] (-) TimerEvent: {}
+[52.269688] (-) TimerEvent: {}
+[52.371208] (-) TimerEvent: {}
+[52.472793] (-) TimerEvent: {}
+[52.574239] (-) TimerEvent: {}
+[52.676235] (-) TimerEvent: {}
+[52.777801] (-) TimerEvent: {}
+[52.879476] (-) TimerEvent: {}
+[52.981087] (-) TimerEvent: {}
+[53.082700] (-) TimerEvent: {}
+[53.184624] (-) TimerEvent: {}
+[53.286187] (-) TimerEvent: {}
+[53.388006] (-) TimerEvent: {}
+[53.489605] (-) TimerEvent: {}
+[53.591189] (-) TimerEvent: {}
+[53.692752] (-) TimerEvent: {}
+[53.955532] (-) TimerEvent: {}
+[54.057042] (-) TimerEvent: {}
+[54.158601] (-) TimerEvent: {}
+[54.260103] (-) TimerEvent: {}
+[54.361491] (-) TimerEvent: {}
+[54.462987] (-) TimerEvent: {}
+[54.564590] (-) TimerEvent: {}
+[54.666064] (-) TimerEvent: {}
+[54.767705] (-) TimerEvent: {}
+[54.869681] (-) TimerEvent: {}
+[54.970975] (-) TimerEvent: {}
+[55.072485] (-) TimerEvent: {}
+[55.173946] (-) TimerEvent: {}
+[55.275316] (-) TimerEvent: {}
+[55.376786] (-) TimerEvent: {}
+[55.478269] (-) TimerEvent: {}
+[55.579685] (-) TimerEvent: {}
+[55.681088] (-) TimerEvent: {}
+[55.782475] (-) TimerEvent: {}
+[55.883868] (-) TimerEvent: {}
+[55.985217] (-) TimerEvent: {}
+[56.086660] (-) TimerEvent: {}
+[56.188076] (-) TimerEvent: {}
+[56.289426] (-) TimerEvent: {}
+[56.390892] (-) TimerEvent: {}
+[56.492346] (-) TimerEvent: {}
+[56.593720] (-) TimerEvent: {}
+[56.695158] (-) TimerEvent: {}
+[56.796630] (-) TimerEvent: {}
+[56.897999] (-) TimerEvent: {}
+[56.999485] (-) TimerEvent: {}
+[57.100940] (-) TimerEvent: {}
+[57.202673] (-) TimerEvent: {}
+[57.304351] (-) TimerEvent: {}
+[57.405707] (-) TimerEvent: {}
+[57.507046] (-) TimerEvent: {}
+[57.608545] (-) TimerEvent: {}
+[57.710067] (-) TimerEvent: {}
+[57.811698] (-) TimerEvent: {}
+[57.864988] (bno055_driver) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[57.911840] (-) TimerEvent: {}
+[58.013445] (-) TimerEvent: {}
+[58.115182] (-) TimerEvent: {}
+[58.217150] (-) TimerEvent: {}
+[58.318521] (-) TimerEvent: {}
+[58.420120] (-) TimerEvent: {}
+[58.463730] (bno055_driver) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[58.520381] (-) TimerEvent: {}
+[58.621660] (-) TimerEvent: {}
+[58.722949] (-) TimerEvent: {}
+[58.824296] (-) TimerEvent: {}
+[58.925591] (-) TimerEvent: {}
+[59.026916] (-) TimerEvent: {}
+[59.128279] (-) TimerEvent: {}
+[59.229535] (-) TimerEvent: {}
+[59.330910] (-) TimerEvent: {}
+[59.432290] (-) TimerEvent: {}
+[59.533529] (-) TimerEvent: {}
+[59.634796] (-) TimerEvent: {}
+[59.736106] (-) TimerEvent: {}
+[59.837406] (-) TimerEvent: {}
+[59.938671] (-) TimerEvent: {}
+[60.039975] (-) TimerEvent: {}
+[60.141182] (-) TimerEvent: {}
+[60.242545] (-) TimerEvent: {}
+[60.343843] (-) TimerEvent: {}
+[60.445134] (-) TimerEvent: {}
+[60.546452] (-) TimerEvent: {}
+[60.647746] (-) TimerEvent: {}
+[60.749019] (-) TimerEvent: {}
+[60.850314] (-) TimerEvent: {}
+[60.951608] (-) TimerEvent: {}
+[61.052909] (-) TimerEvent: {}
+[61.154222] (-) TimerEvent: {}
+[61.255611] (-) TimerEvent: {}
+[61.356872] (-) TimerEvent: {}
+[61.458162] (-) TimerEvent: {}
+[61.559484] (-) TimerEvent: {}
+[61.660737] (-) TimerEvent: {}
+[61.762078] (-) TimerEvent: {}
+[61.863452] (-) TimerEvent: {}
+[61.964673] (-) TimerEvent: {}
+[62.065952] (-) TimerEvent: {}
+[62.167308] (-) TimerEvent: {}
+[62.268613] (-) TimerEvent: {}
+[62.369950] (-) TimerEvent: {}
+[62.471289] (-) TimerEvent: {}
+[62.572604] (-) TimerEvent: {}
+[62.673769] (-) TimerEvent: {}
+[62.774989] (-) TimerEvent: {}
+[62.876230] (-) TimerEvent: {}
+[62.977428] (-) TimerEvent: {}
+[63.078615] (-) TimerEvent: {}
+[63.179876] (-) TimerEvent: {}
+[63.281044] (-) TimerEvent: {}
+[63.382175] (-) TimerEvent: {}
+[63.483386] (-) TimerEvent: {}
+[63.584546] (-) TimerEvent: {}
+[63.685771] (-) TimerEvent: {}
+[63.786947] (-) TimerEvent: {}
+[63.888183] (-) TimerEvent: {}
+[63.989380] (-) TimerEvent: {}
+[64.090607] (-) TimerEvent: {}
+[64.191909] (-) TimerEvent: {}
+[64.293179] (-) TimerEvent: {}
+[64.394500] (-) TimerEvent: {}
+[64.495730] (-) TimerEvent: {}
+[64.596936] (-) TimerEvent: {}
+[64.698255] (-) TimerEvent: {}
+[64.799539] (-) TimerEvent: {}
+[64.900768] (-) TimerEvent: {}
+[65.002049] (-) TimerEvent: {}
+[65.103302] (-) TimerEvent: {}
+[65.204607] (-) TimerEvent: {}
+[65.305902] (-) TimerEvent: {}
+[65.407196] (-) TimerEvent: {}
+[65.508524] (-) TimerEvent: {}
+[65.609770] (-) TimerEvent: {}
+[65.711032] (-) TimerEvent: {}
+[65.812314] (-) TimerEvent: {}
+[65.913572] (-) TimerEvent: {}
+[66.014868] (-) TimerEvent: {}
+[66.116157] (-) TimerEvent: {}
+[66.217453] (-) TimerEvent: {}
+[66.318799] (-) TimerEvent: {}
+[66.420077] (-) TimerEvent: {}
+[66.521315] (-) TimerEvent: {}
+[66.622556] (-) TimerEvent: {}
+[66.723852] (-) TimerEvent: {}
+[66.825105] (-) TimerEvent: {}
+[66.926474] (-) TimerEvent: {}
+[67.027781] (-) TimerEvent: {}
+[67.129081] (-) TimerEvent: {}
+[67.230412] (-) TimerEvent: {}
+[67.331669] (-) TimerEvent: {}
+[67.432994] (-) TimerEvent: {}
+[67.534250] (-) TimerEvent: {}
+[67.635604] (-) TimerEvent: {}
+[67.736932] (-) TimerEvent: {}
+[67.838222] (-) TimerEvent: {}
+[67.939552] (-) TimerEvent: {}
+[68.040771] (-) TimerEvent: {}
+[68.142105] (-) TimerEvent: {}
+[68.243431] (-) TimerEvent: {}
+[68.344726] (-) TimerEvent: {}
+[68.446092] (-) TimerEvent: {}
+[68.547649] (-) TimerEvent: {}
+[68.648918] (-) TimerEvent: {}
+[68.750100] (-) TimerEvent: {}
+[68.851241] (-) TimerEvent: {}
+[68.952468] (-) TimerEvent: {}
+[69.053631] (-) TimerEvent: {}
+[69.154811] (-) TimerEvent: {}
+[69.256004] (-) TimerEvent: {}
+[69.357165] (-) TimerEvent: {}
+[69.458389] (-) TimerEvent: {}
+[69.559575] (-) TimerEvent: {}
+[69.660711] (-) TimerEvent: {}
+[69.761949] (-) TimerEvent: {}
+[69.863126] (-) TimerEvent: {}
+[69.964332] (-) TimerEvent: {}
+[70.065494] (-) TimerEvent: {}
+[70.166685] (-) TimerEvent: {}
+[70.267880] (-) TimerEvent: {}
+[70.369086] (-) TimerEvent: {}
+[70.470381] (-) TimerEvent: {}
+[70.571571] (-) TimerEvent: {}
+[70.672760] (-) TimerEvent: {}
+[70.773923] (-) TimerEvent: {}
+[70.875158] (-) TimerEvent: {}
+[70.976403] (-) TimerEvent: {}
+[71.077641] (-) TimerEvent: {}
+[71.178881] (-) TimerEvent: {}
+[71.280529] (-) TimerEvent: {}
+[71.381729] (-) TimerEvent: {}
+[71.482920] (-) TimerEvent: {}
+[71.584129] (-) TimerEvent: {}
+[71.685415] (-) TimerEvent: {}
+[71.786635] (-) TimerEvent: {}
+[71.887915] (-) TimerEvent: {}
+[71.989118] (-) TimerEvent: {}
+[72.077566] (bno055_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libbno055.a\x1b[0m\n'}
+[72.089382] (-) TimerEvent: {}
+[72.190603] (-) TimerEvent: {}
+[72.291981] (-) TimerEvent: {}
+[72.393383] (-) TimerEvent: {}
+[72.494652] (-) TimerEvent: {}
+[72.596306] (-) TimerEvent: {}
+[72.697984] (-) TimerEvent: {}
+[72.799435] (-) TimerEvent: {}
+[72.900980] (-) TimerEvent: {}
+[73.002718] (-) TimerEvent: {}
+[73.104316] (-) TimerEvent: {}
+[73.153372] (bno055_driver) StdoutLine: {'line': b'[ 50%] Built target bno055\n'}
+[73.204558] (-) TimerEvent: {}
+[73.305832] (-) TimerEvent: {}
+[73.407522] (-) TimerEvent: {}
+[73.411454] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bno055_test_fixture\x1b[0m\n'}
+[73.412907] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bno055_driver\x1b[0m\n'}
+[73.507797] (-) TimerEvent: {}
+[73.609228] (-) TimerEvent: {}
+[73.710518] (-) TimerEvent: {}
+[73.812074] (-) TimerEvent: {}
+[73.913329] (-) TimerEvent: {}
+[74.014507] (-) TimerEvent: {}
+[74.030078] (bno055_driver) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object test/CMakeFiles/bno055_test_fixture.dir/fake_bno055.cpp.o\x1b[0m\n'}
+[74.094997] (bno055_driver) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object test/CMakeFiles/bno055_test_fixture.dir/unix_test_harness.cpp.o\x1b[0m\n'}
+[74.096940] (bno055_driver) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/bno055_driver.dir/src/main.cpp.o\x1b[0m\n'}
+[74.114879] (-) TimerEvent: {}
+[74.217365] (-) TimerEvent: {}
+[74.318478] (-) TimerEvent: {}
+[74.419750] (-) TimerEvent: {}
+[74.520986] (-) TimerEvent: {}
+[74.622978] (-) TimerEvent: {}
+[74.724956] (-) TimerEvent: {}
+[74.826379] (-) TimerEvent: {}
+[74.927994] (-) TimerEvent: {}
+[75.030443] (-) TimerEvent: {}
+[75.132871] (-) TimerEvent: {}
+[75.235072] (-) TimerEvent: {}
+[75.337423] (-) TimerEvent: {}
+[75.439710] (-) TimerEvent: {}
+[75.542376] (-) TimerEvent: {}
+[75.645113] (-) TimerEvent: {}
+[75.747849] (-) TimerEvent: {}
+[75.850729] (-) TimerEvent: {}
+[75.953618] (-) TimerEvent: {}
+[76.056413] (-) TimerEvent: {}
+[76.158961] (-) TimerEvent: {}
+[76.261700] (-) TimerEvent: {}
+[76.364572] (-) TimerEvent: {}
+[76.467415] (-) TimerEvent: {}
+[76.570123] (-) TimerEvent: {}
+[76.672790] (-) TimerEvent: {}
+[76.775607] (-) TimerEvent: {}
+[76.878385] (-) TimerEvent: {}
+[76.981027] (-) TimerEvent: {}
+[77.083722] (-) TimerEvent: {}
+[77.186776] (-) TimerEvent: {}
+[77.289873] (-) TimerEvent: {}
+[77.392909] (-) TimerEvent: {}
+[77.495851] (-) TimerEvent: {}
+[77.598577] (-) TimerEvent: {}
+[77.701514] (-) TimerEvent: {}
+[77.804626] (-) TimerEvent: {}
+[77.907560] (-) TimerEvent: {}
+[78.009118] (-) TimerEvent: {}
+[78.110659] (-) TimerEvent: {}
+[78.212265] (-) TimerEvent: {}
+[78.314039] (-) TimerEvent: {}
+[78.417088] (-) TimerEvent: {}
+[78.518681] (-) TimerEvent: {}
+[78.620204] (-) TimerEvent: {}
+[78.721693] (-) TimerEvent: {}
+[78.823159] (-) TimerEvent: {}
+[78.924665] (-) TimerEvent: {}
+[79.026127] (-) TimerEvent: {}
+[79.127652] (-) TimerEvent: {}
+[79.229109] (-) TimerEvent: {}
+[79.330627] (-) TimerEvent: {}
+[79.432076] (-) TimerEvent: {}
+[79.533564] (-) TimerEvent: {}
+[79.635178] (-) TimerEvent: {}
+[79.736781] (-) TimerEvent: {}
+[79.838246] (-) TimerEvent: {}
+[79.939718] (-) TimerEvent: {}
+[80.041131] (-) TimerEvent: {}
+[80.142570] (-) TimerEvent: {}
+[80.244094] (-) TimerEvent: {}
+[80.345484] (-) TimerEvent: {}
+[80.446973] (-) TimerEvent: {}
+[80.548406] (-) TimerEvent: {}
+[80.649836] (-) TimerEvent: {}
+[80.751426] (-) TimerEvent: {}
+[80.852860] (-) TimerEvent: {}
+[80.954357] (-) TimerEvent: {}
+[81.055834] (-) TimerEvent: {}
+[81.157297] (-) TimerEvent: {}
+[81.258669] (-) TimerEvent: {}
+[81.360149] (-) TimerEvent: {}
+[81.461655] (-) TimerEvent: {}
+[81.563155] (-) TimerEvent: {}
+[81.664633] (-) TimerEvent: {}
+[81.766159] (-) TimerEvent: {}
+[81.867626] (-) TimerEvent: {}
+[81.969202] (-) TimerEvent: {}
+[82.070680] (-) TimerEvent: {}
+[82.172194] (-) TimerEvent: {}
+[82.273685] (-) TimerEvent: {}
+[82.375183] (-) TimerEvent: {}
+[82.476667] (-) TimerEvent: {}
+[82.578211] (-) TimerEvent: {}
+[82.679722] (-) TimerEvent: {}
+[82.781238] (-) TimerEvent: {}
+[82.882772] (-) TimerEvent: {}
+[82.984349] (-) TimerEvent: {}
+[83.085799] (-) TimerEvent: {}
+[83.187225] (-) TimerEvent: {}
+[83.288781] (-) TimerEvent: {}
+[83.390177] (-) TimerEvent: {}
+[83.491807] (-) TimerEvent: {}
+[83.593281] (-) TimerEvent: {}
+[83.694747] (-) TimerEvent: {}
+[83.796196] (-) TimerEvent: {}
+[83.897712] (-) TimerEvent: {}
+[83.999113] (-) TimerEvent: {}
+[84.100538] (-) TimerEvent: {}
+[84.201959] (-) TimerEvent: {}
+[84.303440] (-) TimerEvent: {}
+[84.404871] (-) TimerEvent: {}
+[84.506307] (-) TimerEvent: {}
+[84.607770] (-) TimerEvent: {}
+[84.709249] (-) TimerEvent: {}
+[84.810823] (-) TimerEvent: {}
+[84.912456] (-) TimerEvent: {}
+[85.013939] (-) TimerEvent: {}
+[85.115406] (-) TimerEvent: {}
+[85.216788] (-) TimerEvent: {}
+[85.318280] (-) TimerEvent: {}
+[85.419704] (-) TimerEvent: {}
+[85.521186] (-) TimerEvent: {}
+[85.622641] (-) TimerEvent: {}
+[85.724339] (-) TimerEvent: {}
+[85.825815] (-) TimerEvent: {}
+[85.927318] (-) TimerEvent: {}
+[86.028751] (-) TimerEvent: {}
+[86.130306] (-) TimerEvent: {}
+[86.231728] (-) TimerEvent: {}
+[86.333169] (-) TimerEvent: {}
+[86.434626] (-) TimerEvent: {}
+[86.536139] (-) TimerEvent: {}
+[86.541571] (bno055_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kbno055_test::UnixTestHarness::UnixTestHarness()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[86.543299] (bno055_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:43:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ExecutorArgs = struct rclcpp::ExecutorOptions\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use rclcpp::ExecutorOptions instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[86.544977] (bno055_driver) StderrLine: {'line': b'   43 |   rclcpp::executor::ExecutorArgs \x1b[01;35m\x1b[Kexe_args\x1b[m\x1b[K;\n'}
+[86.546286] (bno055_driver) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[86.547653] (bno055_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[86.548987] (bno055_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[86.550297] (bno055_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[86.551826] (bno055_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[86.553151] (bno055_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.hpp:20\x1b[m\x1b[K,\n'}
+[86.554390] (bno055_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:15\x1b[m\x1b[K:\n'}
+[86.555803] (bno055_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:44:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[86.557277] (bno055_driver) StderrLine: {'line': b'   44 | using \x1b[01;36m\x1b[KExecutorArgs\x1b[m\x1b[K [[deprecated("use rclcpp::ExecutorOptions instead")]] = ExecutorOptions;\n'}
+[86.558560] (bno055_driver) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[86.636426] (-) TimerEvent: {}
+[86.737860] (-) TimerEvent: {}
+[86.839179] (-) TimerEvent: {}
+[86.940602] (-) TimerEvent: {}
+[87.042070] (-) TimerEvent: {}
+[87.143473] (-) TimerEvent: {}
+[87.244713] (-) TimerEvent: {}
+[87.345980] (-) TimerEvent: {}
+[87.447409] (-) TimerEvent: {}
+[87.548671] (-) TimerEvent: {}
+[87.650030] (-) TimerEvent: {}
+[87.751404] (-) TimerEvent: {}
+[87.852797] (-) TimerEvent: {}
+[87.954282] (-) TimerEvent: {}
+[88.055634] (-) TimerEvent: {}
+[88.157072] (-) TimerEvent: {}
+[88.258560] (-) TimerEvent: {}
+[88.360121] (-) TimerEvent: {}
+[88.461601] (-) TimerEvent: {}
+[88.563173] (-) TimerEvent: {}
+[88.664979] (-) TimerEvent: {}
+[88.766522] (-) TimerEvent: {}
+[88.867998] (-) TimerEvent: {}
+[88.969502] (-) TimerEvent: {}
+[89.071047] (-) TimerEvent: {}
+[89.172597] (-) TimerEvent: {}
+[89.274234] (-) TimerEvent: {}
+[89.375828] (-) TimerEvent: {}
+[89.477345] (-) TimerEvent: {}
+[89.578971] (-) TimerEvent: {}
+[89.680584] (-) TimerEvent: {}
+[89.782102] (-) TimerEvent: {}
+[89.883612] (-) TimerEvent: {}
+[89.985165] (-) TimerEvent: {}
+[90.086739] (-) TimerEvent: {}
+[90.188144] (-) TimerEvent: {}
+[90.289572] (-) TimerEvent: {}
+[90.390951] (-) TimerEvent: {}
+[90.492444] (-) TimerEvent: {}
+[90.593804] (-) TimerEvent: {}
+[90.695495] (-) TimerEvent: {}
+[90.797085] (-) TimerEvent: {}
+[90.898603] (-) TimerEvent: {}
+[91.000130] (-) TimerEvent: {}
+[91.058849] (bno055_driver) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable bno055_driver\x1b[0m\n'}
+[91.100423] (-) TimerEvent: {}
+[91.202266] (-) TimerEvent: {}
+[91.303702] (-) TimerEvent: {}
+[91.405402] (-) TimerEvent: {}
+[91.506922] (-) TimerEvent: {}
+[91.608256] (-) TimerEvent: {}
+[91.709714] (-) TimerEvent: {}
+[91.811630] (-) TimerEvent: {}
+[91.913754] (-) TimerEvent: {}
+[92.015527] (-) TimerEvent: {}
+[92.117525] (-) TimerEvent: {}
+[92.219600] (-) TimerEvent: {}
+[92.321350] (-) TimerEvent: {}
+[92.423039] (-) TimerEvent: {}
+[92.525149] (-) TimerEvent: {}
+[92.627079] (-) TimerEvent: {}
+[92.729060] (-) TimerEvent: {}
+[92.830482] (-) TimerEvent: {}
+[92.932057] (-) TimerEvent: {}
+[93.034473] (-) TimerEvent: {}
+[93.136762] (-) TimerEvent: {}
+[93.238677] (-) TimerEvent: {}
+[93.340469] (-) TimerEvent: {}
+[93.442221] (-) TimerEvent: {}
+[93.543573] (-) TimerEvent: {}
+[93.644868] (-) TimerEvent: {}
+[93.746200] (-) TimerEvent: {}
+[93.774891] (bno055_driver) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX static library libbno055_test_fixture.a\x1b[0m\n'}
+[93.846489] (-) TimerEvent: {}
+[93.947993] (-) TimerEvent: {}
+[94.049281] (-) TimerEvent: {}
+[94.071634] (bno055_driver) StdoutLine: {'line': b'[ 85%] Built target bno055_test_fixture\n'}
+[94.149604] (-) TimerEvent: {}
+[94.158837] (bno055_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bno055_serial_tests\x1b[0m\n'}
+[94.249872] (-) TimerEvent: {}
+[94.351166] (-) TimerEvent: {}
+[94.452516] (-) TimerEvent: {}
+[94.554288] (-) TimerEvent: {}
+[94.601864] (bno055_driver) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object test/CMakeFiles/bno055_serial_tests.dir/bno055_serial_tests.cpp.o\x1b[0m\n'}
+[94.654598] (-) TimerEvent: {}
+[94.756102] (-) TimerEvent: {}
+[94.857584] (-) TimerEvent: {}
+[94.875518] (bno055_driver) StdoutLine: {'line': b'[ 92%] Built target bno055_driver\n'}
+[94.958161] (-) TimerEvent: {}
+[95.060088] (-) TimerEvent: {}
+[95.161232] (-) TimerEvent: {}
+[95.262519] (-) TimerEvent: {}
+[95.363758] (-) TimerEvent: {}
+[95.464928] (-) TimerEvent: {}
+[95.566081] (-) TimerEvent: {}
+[95.667256] (-) TimerEvent: {}
+[95.768471] (-) TimerEvent: {}
+[95.869657] (-) TimerEvent: {}
+[95.970928] (-) TimerEvent: {}
+[96.072249] (-) TimerEvent: {}
+[96.173484] (-) TimerEvent: {}
+[96.274750] (-) TimerEvent: {}
+[96.376048] (-) TimerEvent: {}
+[96.477258] (-) TimerEvent: {}
+[96.578496] (-) TimerEvent: {}
+[96.679819] (-) TimerEvent: {}
+[96.781075] (-) TimerEvent: {}
+[96.882336] (-) TimerEvent: {}
+[96.983673] (-) TimerEvent: {}
+[97.084878] (-) TimerEvent: {}
+[97.186108] (-) TimerEvent: {}
+[97.287413] (-) TimerEvent: {}
+[97.388670] (-) TimerEvent: {}
+[97.490016] (-) TimerEvent: {}
+[97.591383] (-) TimerEvent: {}
+[97.692656] (-) TimerEvent: {}
+[97.793903] (-) TimerEvent: {}
+[97.895200] (-) TimerEvent: {}
+[97.996534] (-) TimerEvent: {}
+[98.097789] (-) TimerEvent: {}
+[98.199021] (-) TimerEvent: {}
+[98.300347] (-) TimerEvent: {}
+[98.401591] (-) TimerEvent: {}
+[98.502888] (-) TimerEvent: {}
+[98.604210] (-) TimerEvent: {}
+[98.705494] (-) TimerEvent: {}
+[98.806960] (-) TimerEvent: {}
+[98.908307] (-) TimerEvent: {}
+[99.009559] (-) TimerEvent: {}
+[99.110903] (-) TimerEvent: {}
+[99.212236] (-) TimerEvent: {}
+[99.313531] (-) TimerEvent: {}
+[99.414800] (-) TimerEvent: {}
+[99.516095] (-) TimerEvent: {}
+[99.617301] (-) TimerEvent: {}
+[99.718598] (-) TimerEvent: {}
+[99.819812] (-) TimerEvent: {}
+[99.921059] (-) TimerEvent: {}
+[100.022404] (-) TimerEvent: {}
+[100.123702] (-) TimerEvent: {}
+[100.224930] (-) TimerEvent: {}
+[100.326188] (-) TimerEvent: {}
+[100.427553] (-) TimerEvent: {}
+[100.528854] (-) TimerEvent: {}
+[100.630180] (-) TimerEvent: {}
+[100.731492] (-) TimerEvent: {}
+[100.832738] (-) TimerEvent: {}
+[100.934143] (-) TimerEvent: {}
+[101.035430] (-) TimerEvent: {}
+[101.136635] (-) TimerEvent: {}
+[101.237924] (-) TimerEvent: {}
+[101.339226] (-) TimerEvent: {}
+[101.440512] (-) TimerEvent: {}
+[101.541832] (-) TimerEvent: {}
+[101.643086] (-) TimerEvent: {}
+[101.744392] (-) TimerEvent: {}
+[101.845646] (-) TimerEvent: {}
+[101.946866] (-) TimerEvent: {}
+[102.048132] (-) TimerEvent: {}
+[102.149375] (-) TimerEvent: {}
+[102.250656] (-) TimerEvent: {}
+[102.351929] (-) TimerEvent: {}
+[102.453176] (-) TimerEvent: {}
+[102.554461] (-) TimerEvent: {}
+[102.655720] (-) TimerEvent: {}
+[102.756917] (-) TimerEvent: {}
+[102.858096] (-) TimerEvent: {}
+[102.959458] (-) TimerEvent: {}
+[103.060739] (-) TimerEvent: {}
+[103.161998] (-) TimerEvent: {}
+[103.263256] (-) TimerEvent: {}
+[103.364481] (-) TimerEvent: {}
+[103.465708] (-) TimerEvent: {}
+[103.566958] (-) TimerEvent: {}
+[103.668226] (-) TimerEvent: {}
+[103.769449] (-) TimerEvent: {}
+[103.870692] (-) TimerEvent: {}
+[103.972081] (-) TimerEvent: {}
+[104.073301] (-) TimerEvent: {}
+[104.174621] (-) TimerEvent: {}
+[104.275977] (-) TimerEvent: {}
+[104.377246] (-) TimerEvent: {}
+[104.478494] (-) TimerEvent: {}
+[104.579760] (-) TimerEvent: {}
+[104.681010] (-) TimerEvent: {}
+[104.782314] (-) TimerEvent: {}
+[104.883523] (-) TimerEvent: {}
+[104.984759] (-) TimerEvent: {}
+[105.085957] (-) TimerEvent: {}
+[105.187169] (-) TimerEvent: {}
+[105.288444] (-) TimerEvent: {}
+[105.389641] (-) TimerEvent: {}
+[105.490783] (-) TimerEvent: {}
+[105.591966] (-) TimerEvent: {}
+[105.693134] (-) TimerEvent: {}
+[105.794265] (-) TimerEvent: {}
+[105.895458] (-) TimerEvent: {}
+[105.996628] (-) TimerEvent: {}
+[106.097791] (-) TimerEvent: {}
+[106.198967] (-) TimerEvent: {}
+[106.300157] (-) TimerEvent: {}
+[106.401406] (-) TimerEvent: {}
+[106.502764] (-) TimerEvent: {}
+[106.604049] (-) TimerEvent: {}
+[106.705261] (-) TimerEvent: {}
+[106.806511] (-) TimerEvent: {}
+[106.907720] (-) TimerEvent: {}
+[107.009041] (-) TimerEvent: {}
+[107.110287] (-) TimerEvent: {}
+[107.211609] (-) TimerEvent: {}
+[107.312893] (-) TimerEvent: {}
+[107.414182] (-) TimerEvent: {}
+[107.515544] (-) TimerEvent: {}
+[107.616777] (-) TimerEvent: {}
+[107.718054] (-) TimerEvent: {}
+[107.819318] (-) TimerEvent: {}
+[107.920627] (-) TimerEvent: {}
+[108.021885] (-) TimerEvent: {}
+[108.123165] (-) TimerEvent: {}
+[108.224503] (-) TimerEvent: {}
+[108.325833] (-) TimerEvent: {}
+[108.427084] (-) TimerEvent: {}
+[108.528407] (-) TimerEvent: {}
+[108.629700] (-) TimerEvent: {}
+[108.730956] (-) TimerEvent: {}
+[108.832308] (-) TimerEvent: {}
+[108.933566] (-) TimerEvent: {}
+[109.034905] (-) TimerEvent: {}
+[109.136318] (-) TimerEvent: {}
+[109.237575] (-) TimerEvent: {}
+[109.338900] (-) TimerEvent: {}
+[109.440233] (-) TimerEvent: {}
+[109.541472] (-) TimerEvent: {}
+[109.642716] (-) TimerEvent: {}
+[109.744022] (-) TimerEvent: {}
+[109.845296] (-) TimerEvent: {}
+[109.946614] (-) TimerEvent: {}
+[110.047925] (-) TimerEvent: {}
+[110.149169] (-) TimerEvent: {}
+[110.250433] (-) TimerEvent: {}
+[110.351719] (-) TimerEvent: {}
+[110.452927] (-) TimerEvent: {}
+[110.554131] (-) TimerEvent: {}
+[110.655467] (-) TimerEvent: {}
+[110.756723] (-) TimerEvent: {}
+[110.857985] (-) TimerEvent: {}
+[110.959299] (-) TimerEvent: {}
+[111.060497] (-) TimerEvent: {}
+[111.161748] (-) TimerEvent: {}
+[111.263045] (-) TimerEvent: {}
+[111.364351] (-) TimerEvent: {}
+[111.465570] (-) TimerEvent: {}
+[111.566744] (-) TimerEvent: {}
+[111.667903] (-) TimerEvent: {}
+[111.723597] (bno055_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bno055_serial_tests\x1b[0m\n'}
+[111.768146] (-) TimerEvent: {}
+[111.869526] (-) TimerEvent: {}
+[111.970947] (-) TimerEvent: {}
+[112.072406] (-) TimerEvent: {}
+[112.173876] (-) TimerEvent: {}
+[112.275630] (-) TimerEvent: {}
+[112.376918] (-) TimerEvent: {}
+[112.478389] (-) TimerEvent: {}
+[112.579923] (-) TimerEvent: {}
+[112.681802] (-) TimerEvent: {}
+[112.783551] (-) TimerEvent: {}
+[112.885056] (-) TimerEvent: {}
+[112.986469] (-) TimerEvent: {}
+[113.087742] (-) TimerEvent: {}
+[113.189341] (-) TimerEvent: {}
+[113.290782] (-) TimerEvent: {}
+[113.392730] (-) TimerEvent: {}
+[113.494407] (-) TimerEvent: {}
+[113.596135] (-) TimerEvent: {}
+[113.697660] (-) TimerEvent: {}
+[113.799376] (-) TimerEvent: {}
+[113.900846] (-) TimerEvent: {}
+[114.002326] (-) TimerEvent: {}
+[114.103657] (-) TimerEvent: {}
+[114.205036] (-) TimerEvent: {}
+[114.306208] (-) TimerEvent: {}
+[114.407406] (-) TimerEvent: {}
+[114.508535] (-) TimerEvent: {}
+[114.609742] (-) TimerEvent: {}
+[114.710921] (-) TimerEvent: {}
+[114.812280] (-) TimerEvent: {}
+[114.913318] (-) TimerEvent: {}
+[115.014364] (-) TimerEvent: {}
+[115.115613] (-) TimerEvent: {}
+[115.216932] (-) TimerEvent: {}
+[115.318079] (-) TimerEvent: {}
+[115.419260] (-) TimerEvent: {}
+[115.520483] (-) TimerEvent: {}
+[115.621544] (-) TimerEvent: {}
+[115.722612] (-) TimerEvent: {}
+[115.823698] (-) TimerEvent: {}
+[115.925226] (-) TimerEvent: {}
+[115.993215] (bno055_driver) StdoutLine: {'line': b'[100%] Built target bno055_serial_tests\n'}
+[116.025483] (-) TimerEvent: {}
+[116.076211] (bno055_driver) CommandEnded: {'returncode': 0}
+[116.125847] (-) TimerEvent: {}
+[116.227231] (-) TimerEvent: {}
+[116.329431] (-) TimerEvent: {}
+[116.347870] (bno055_driver) JobProgress: {'identifier': 'bno055_driver', 'progress': 'install'}
+[116.350283] (bno055_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/bno055_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/bno055_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.2 44992 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/serial/lib:/home/ubuntu/ros2_ws/install/opencv_cam/lib:/home/ubuntu/ros2_ws/install/apriltag_ros/lib:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/bno055:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/ros2_ws/build/bno055_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.2 44992 192.168.0.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/pi_car/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/bno055/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/apriltag_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/serial:/home/ubuntu/ros2_ws/install/opencv_cam:/home/ubuntu/ros2_ws/install/ros2_shared:/home/ubuntu/ros2_ws/install/apriltag_ros:/home/ubuntu/ros2_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/pi_car:/home/ubuntu/ros2_ws/install/bno055:/opt/ros/foxy')]), 'shell': False}
+[116.428528] (bno055_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[116.430118] (-) TimerEvent: {}
+[116.431234] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include\n'}
+[116.432360] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver\n'}
+[116.433443] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/visibility_control.hpp\n'}
+[116.434516] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_uart.hpp\n'}
+[116.435819] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_driver.hpp\n'}
+[116.436888] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/include/bno055_driver/bno055_reg.hpp\n'}
+[116.437951] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/lib/libbno055.a\n'}
+[116.489833] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/lib/bno055_driver/bno055_driver\n'}
+[116.512452] (bno055_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/bno055_driver/lib/bno055_driver/bno055_driver" to ""\n'}
+[116.514042] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/package_run_dependencies/bno055_driver\n'}
+[116.517774] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/parent_prefix_path/bno055_driver\n'}
+[116.523738] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/ament_prefix_path.sh\n'}
+[116.526661] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/ament_prefix_path.dsv\n'}
+[116.529504] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/path.sh\n'}
+[116.530565] (-) TimerEvent: {}
+[116.532468] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/environment/path.dsv\n'}
+[116.535226] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.bash\n'}
+[116.537816] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.sh\n'}
+[116.540691] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.zsh\n'}
+[116.543289] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/local_setup.dsv\n'}
+[116.546716] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/package.dsv\n'}
+[116.550724] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/ament_index/resource_index/packages/bno055_driver\n'}
+[116.553964] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/cmake/bno055_driverConfig.cmake\n'}
+[116.556727] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/cmake/bno055_driverConfig-version.cmake\n'}
+[116.559603] (bno055_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/bno055_driver/share/bno055_driver/package.xml\n'}
+[116.576722] (bno055_driver) CommandEnded: {'returncode': 0}
+[116.630974] (-) TimerEvent: {}
+[116.661551] (bno055_driver) JobEnded: {'identifier': 'bno055_driver', 'rc': 0}
+[116.669193] (-) EventReactorShutdown: {}

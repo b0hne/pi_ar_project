@@ -1,0 +1,40 @@
+[0.223s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ros2_shared
+[2.956s] -- The CXX compiler identification is GNU 9.3.0
+[2.957s] -- Check for working CXX compiler: /usr/bin/c++
+[2.959s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.960s] -- Detecting CXX compiler ABI info
+[2.962s] -- Detecting CXX compiler ABI info - done
+[2.966s] -- Detecting CXX compile features
+[2.969s] -- Detecting CXX compile features - done
+[2.970s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.973s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+[2.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.460s] -- Configuring done
+[6.491s] -- Generating done
+[6.509s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/ros2_shared
+[6.539s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ros2_shared
+[6.554s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[6.935s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ros2_shared -- -j4 -l4
+[7.212s] Invoking command in '/home/ubuntu/ros2_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared
+[7.301s] -- Install configuration: ""
+[7.303s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/include
+[7.305s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared
+[7.307s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[7.310s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[7.315s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[7.318s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[7.321s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[7.329s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[7.331s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[7.333s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[7.335s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[7.337s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[7.339s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[7.340s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[7.342s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[7.343s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[7.345s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.348s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[7.351s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[7.353s] -- Installing: /home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/package.xml
+[7.379s] Invoked command in '/home/ubuntu/ros2_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ros2_shared

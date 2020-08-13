@@ -1,0 +1,3 @@
+[console_scripts]
+pi_car = pi_car.pi_car:main
+

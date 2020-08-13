@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV version 4.2.0
+-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.2", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found camera_calibration_parsers: 2.3.0 (/opt/ros/foxy/share/camera_calibration_parsers/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.0.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found class_loader: 2.0.1 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found image_transport_plugins: 2.3.0 (/opt/ros/foxy/share/image_transport_plugins/cmake)
+-- Found rclcpp_components: 2.1.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found ros2_shared: 0.1.0 (/home/ubuntu/ros2_ws/install/ros2_shared/share/ros2_shared/cmake)
+CMake Deprecation Warning at /opt/ros/foxy/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake:37 (message):
+  ament_export_interfaces() is deprecated, use ament_export_targets() instead
+Call Stack (most recent call first):
+  CMakeLists.txt:135 (ament_export_interfaces)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/opencv_cam

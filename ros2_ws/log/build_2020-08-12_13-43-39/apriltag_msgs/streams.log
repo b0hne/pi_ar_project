@@ -1,0 +1,21 @@
+[0.263s] Invoking command in '/home/ubuntu/ros2_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs
+[2.631s] -- The C compiler identification is GNU 9.3.0
+[3.554s] -- The CXX compiler identification is unknown
+[3.601s] -- Check for working C compiler: /usr/bin/cc
+[4.445s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.461s] -- Detecting C compiler ABI info
+[5.262s] -- Detecting C compiler ABI info - done
+[5.390s] -- Detecting C compile features
+[5.395s] -- Detecting C compile features - done
+[5.402s] CMake Error at CMakeLists.txt:2 (project):
+[5.404s]   No CMAKE_CXX_COMPILER could be found.
+[5.405s] 
+[5.407s]   Tell CMake where to find the compiler by setting either the environment
+[5.409s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[5.416s]   to the compiler, or to the compiler name if it is in the PATH.
+[5.418s] 
+[5.420s] 
+[5.454s] -- Configuring incomplete, errors occurred!
+[5.456s] See also "/home/ubuntu/ros2_ws/build/apriltag_msgs/CMakeFiles/CMakeOutput.log".
+[5.458s] See also "/home/ubuntu/ros2_ws/build/apriltag_msgs/CMakeFiles/CMakeError.log".
+[5.503s] Invoked command in '/home/ubuntu/ros2_ws/build/apriltag_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/apriltag_msgs

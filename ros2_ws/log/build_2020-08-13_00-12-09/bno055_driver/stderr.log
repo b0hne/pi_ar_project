@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:[m[K In constructor ‘[01m[Kbno055_test::UnixTestHarness::UnixTestHarness()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:43:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ExecutorArgs = struct rclcpp::ExecutorOptions[m[K’ is deprecated: use rclcpp::ExecutorOptions instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   rclcpp::executor::ExecutorArgs [01;35m[Kexe_args[m[K;
+      |                                  [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.hpp:20[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/ros2_bno055_driver/test/unix_test_harness.cpp:15[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:44:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   44 | using [01;36m[KExecutorArgs[m[K [[deprecated("use rclcpp::ExecutorOptions instead")]] = ExecutorOptions;
+      |       [01;36m[K^~~~~~~~~~~~[m[K
